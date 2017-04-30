@@ -1,0 +1,68 @@
+/*INDEX*/
+.collection{
+    margin: 2% 40% 1% 40%;
+}
+
+/*HEADER*/
+nav{
+    background-color: #00796b;
+}
+nav .brand-logo, nav ul a{
+    color: #fff;
+}
+    
+/*FOOTER*/
+.page-footer{
+    background-color: #00796b;
+}
+.body-index{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main{
+    flex: 1 0 auto;
+}
+
+/*CAROUSEL*/
+.carousel .indicators{
+    position: static;
+    margin-top: -10px;
+}
+.carousel .indicators .indicator-item{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.carousel .indicators .indicator-item.active{
+    background-color: #000;
+}
+
+/*PARALLAX*/
+.parallax-container{
+    height: 700px;
+}
+.section{
+    height: 260px;
+}
+.collapsible{
+    margin-right: 75%;
+}
+
+/*ICONE*/
+.material-icons{
+    font-size: 5rem;
+}
+
+/*CONTENUTO*/
+.btn-center{
+    text-align: center;
+    margin: 5% 0 3% 0;
+}
+.carousel.carousel-slider .carousel-item h2{
+    margin-bottom: 3%;
+}
+.div.blocks{
+    margin: 0 15% 0 15%;
+}
+#titolo{
+    color: #ff9800;
+}
