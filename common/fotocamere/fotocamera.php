@@ -50,7 +50,7 @@
                         <div class="row blocks">
                             <div class="col s12 m6">
                                 <div class="icon-block">
-                                    <h2 class="center light-blue-text"><i class="material-icons">camera</i></h2>
+                                    <h2 class="center light-blue-text"><i class="material-icons fotocamere">camera</i></h2>
                                     <h5 class="center">Analogica</h5>
                                     <p class="light">
                                         - L'immagine attraverso l'obiettivo viene proiettata sulla pellicola<br>
@@ -61,7 +61,7 @@
                             </div>
                             <div class="col s12 m6">
                                 <div class="icon-block">
-                                    <h2 class="center light-blue-text"><i class="material-icons">camera_alt</i></h2>
+                                    <h2 class="center light-blue-text"><i class="material-icons fotocamere">camera_alt</i></h2>
                                     <h5 class="center">Digitale</h5>
                                     <p class="light">
                                         - L'immagine viene proiettata su un sensore, composto da pixel affiancati sensibili ai tre colori blu, verde e rosso<br>
