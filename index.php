@@ -38,7 +38,7 @@
             </div>
             <div class="section white">
                 <div class="row container">
-                    <h2 class="header"><a href="common/fotocamere/infrarossi.php">Infrarossi</a></h2>
+                    <h2 class="header"><a href="common/fotocamere/notturna.php">Notturna</a></h2>
                     <p class="grey-text text-darken-3 lighten-3">
                         Le fotocamere e videocamere ad infrarossi permettono la visione in ambienti bui e poco luminosi.<br>
                         Vengono usate per l'individuazione di incendi, di dispersi, nel settore documentaristico, in ingegneria e nella sorveglianza.
