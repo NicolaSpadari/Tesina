@@ -42,7 +42,7 @@
 <header>
     <nav>
         <div class="nav-wrapper">
-            <a href="/Tesina/index.php" class="brand-logo center">TESINA</a>
+            <a href="/index.php" class="brand-logo center">TESINA</a>
             <ul class="right hide-on-med-and-down">
                 <li><a class="dropdown-button" href="#!" data-activates="area-utente">Area utente<i class="material-icons right">arrow_drop_down</i></a></li>
             </ul>
