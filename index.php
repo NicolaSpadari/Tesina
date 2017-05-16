@@ -8,6 +8,7 @@
         <!--CSS-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/material-scrolltop.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link rel="shortcut icon" type="image/png" sizes="16x16" href="images/favicon.png"/>
     </head>
@@ -38,9 +39,9 @@
             </div>
             <div class="section white">
                 <div class="row container">
-                    <h2 class="header"><a href="common/fotocamere/notturna.php">Notturna</a></h2>
+                    <h2 class="header"><a href="common/fotocamere/notturna.php">Visione notturna</a></h2>
                     <p class="grey-text text-darken-3 lighten-3">
-                        Le fotocamere e videocamere ad infrarossi permettono la visione in ambienti bui e poco luminosi.<br>
+                        Le fotocamere e videocamere ad a visione notturna permettono la visibilità in ambienti bui o poco luminosi.<br>
                         Vengono usate per l'individuazione di incendi, di dispersi, nel settore documentaristico, in ingegneria e nella sorveglianza.
                     </p>
                 </div>
@@ -98,10 +99,12 @@
                 <a href="principale.php" class="btn-large waves-effect waves-light goto-start">MATERIE</a>
             </div>
         </main>
+        <button class="material-scrolltop" type="button"></button>
     </body>
     <?php include("common/component/footer.html"); ?>
     <!--Script-->
     <script src="js/jquery.min.js" type="text/javascript"></script>
     <script src="js/materialize.min.js" type="text/javascript"></script>
+    <script src="js/material-scrolltop.js" type="text/javascript"></script>
     <script src="js/init.js" type="text/javascript"></script>
 </html>
