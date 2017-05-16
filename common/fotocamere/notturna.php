@@ -21,6 +21,14 @@
     ?>
     <body class="body-index">
         <main>
+            <div class="banner">
+                <div class="wrapper-banner">
+                    <div class="container-banner">
+                        <img class="img-banner" src="/images/night-banner.jpg">
+                        <h2 class="text-banner">Visione notturna</h2>
+                    </div>
+                </div>
+            </div>
             <div class="container">
                 <div class="section">
                     <div class="row">
@@ -97,19 +105,14 @@
                             <div class="col s12 m6">
                                 <div class="icon-block">
                                     <div class="row">
-                                        <div class="col s12 m6">
+                                        <div class="col s12 m12">
                                             <div class="card">
                                                 <div class="card-image">
-                                                    <img src="/images/infrarossi-verde.jpg">
-                                                    <span class="card-title">Monocromatico</span>
-                                                    <a class="btn-floating activator halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                                                    <img src="/images/monocromatico.jpg">
+                                                    <span class="card-title">Card Title</span>
                                                 </div>
                                                 <div class="card-content">
-                                                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                                                </div>
-                                                <div class="card-reveal">
-                                                    <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                                                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                                    <p>Prova descrizione</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -118,28 +121,28 @@
                             </div>
                             <div class="col s12 m6">
                                 <div class="icon-block">
-                                    <div class="card">
-                                        <div class="card-image">
-                                            <img src="/images/infrarossi-colori.jpg">
-                                            <span class="card-title">Falsi colori</span>
-                                            <a class="btn-floating activator halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
-                                        </div>
-                                        <div class="card-content">
-                                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                                        </div>
-                                        <div class="card-reveal">
-                                            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                    <div class="row">
+                                        <div class="col s12 m12">
+                                            <div class="card">
+                                                <div class="card-image">
+                                                    <img src="/images/falsi-colori.jpg">
+                                                    <span class="card-title">Card Title</span>
+                                                </div>
+                                                <div class="card-content">
+                                                    <p>Prova descrizione</p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>                    
                 </div>
             </div>
         </main>
     </body>
+    <?php include("../component/footer.html"); ?>
     <!--Script-->
     <script src="../../js/jquery.min.js" type="text/javascript"></script>
     <script src="../../js/materialize.min.js" type="text/javascript"></script>
