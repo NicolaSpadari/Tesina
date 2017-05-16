@@ -8,6 +8,7 @@
         <!--CSS-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="../../css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="../../css/material-scrolltop.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="../../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link rel="shortcut icon" type="image/png" sizes="16x16" href="../../images/favicon.png"/>
     </head>
@@ -44,7 +45,7 @@
                                     <p class="light">
                                         Questi dispositivi integrano un intensificatore di luce (o amplificatore di luminosità), che rileva la scarsa luce dell'ambiente e la amplifica elettronicamente.<br>
                                         La visione si presenta così simile a quella che si presenterebbe di giorno; ma in ambienti eccessivamente bui l'immagine potrebbe non essere amplificabile.<br>
-                                        Dei disturbi dell'immagine possono essere causati da una sovraesposizione dell'immagine per troppa luce, rendendo la foto troppo bianca o irriconoscibile.
+                                        Dei disturbi dell'immagine possono essere causati da una sovraesposizione della figura per troppa luce, rendendo la foto troppo bianca o irriconoscibile.
                                     </p>
                                 </div>
                             </div>
@@ -56,7 +57,7 @@
                                         Questi dispositivi integrano una termocamera: rilevano le radiazioni infrarosse che emettono tutti gli oggetti aventi una temperatura differente da quella ambientale.<br>
                                         Non c'è bisogno di luce da una fonte esterna: gli oggetti stessi sono fonte della radiazione necessaria.<br> 
                                         La termocamera rileva intensità proporzionali alle temperature degli oggetti, e quelli più "luminosi" saranno quelli più caldi, mentre quelli più scuri quelli più freddi.<br>
-                                        In un'immagine infrarossa "spiccano" gli oggetti caldi, anche se mimetizzati dalla vegetazione o nebbia.
+                                        In un'immagine infrarossa si notano maggiormente gli oggetti caldi anche se mimetizzati dalla vegetazione o nebbia.
                                     </p>
                                 </div>
                             </div>
@@ -108,11 +109,10 @@
                                         <div class="col s12 m12">
                                             <div class="card">
                                                 <div class="card-image">
-                                                    <img src="/images/monocromatico.jpg">
-                                                    <span class="card-title">Card Title</span>
+                                                    <img src="/images/infrarossi.jpg">
                                                 </div>
                                                 <div class="card-content">
-                                                    <p>Prova descrizione</p>
+                                                    <h5>Infrarossi</h5>
                                                 </div>
                                             </div>
                                         </div>
@@ -125,11 +125,10 @@
                                         <div class="col s12 m12">
                                             <div class="card">
                                                 <div class="card-image">
-                                                    <img src="/images/falsi-colori.jpg">
-                                                    <span class="card-title">Card Title</span>
+                                                    <img src="/images/monocromatico.jpg">
                                                 </div>
                                                 <div class="card-content">
-                                                    <p>Prova descrizione</p>
+                                                    <h5>Monocromatico</h5>
                                                 </div>
                                             </div>
                                         </div>
@@ -141,10 +140,12 @@
                 </div>
             </div>
         </main>
+        <button class="material-scrolltop" type="button"></button>
     </body>
     <?php include("../component/footer.html"); ?>
     <!--Script-->
     <script src="../../js/jquery.min.js" type="text/javascript"></script>
     <script src="../../js/materialize.min.js" type="text/javascript"></script>
+    <script src="../../js/material-scrolltop.js" type="text/javascript"></script>
     <script src="../../js/init.js" type="text/javascript"></script>
 </html>
