@@ -21,6 +21,14 @@
     ?>
     <body class="body-index">
         <main>
+            <div class="banner">
+                <div class="wrapper-banner">
+                    <div class="container-banner">
+                        <img class="img-banner" src="/images/photo-banner.jpg">
+                        <h2 class="text-banner">Fotocamere</h2>
+                    </div>
+                </div>
+            </div>
             <div class="container">
                 <div class="section">
                     <div class="row">
@@ -89,12 +97,54 @@
                                 </div>
                             </div>
                         </div>
-                    </div>                    
+                    </div>
+                    <br><br><div class="divider"></div><br><br>
+                    <div class="row">
+                        <h3 id="titolo" class="col s12 light center header">Esempi fotocamere</h3>
+                    </div>
+                    <div class="row">
+                        <div class="row blocks">
+                            <div class="col s12 m6">
+                                <div class="icon-block">
+                                    <div class="row">
+                                        <div class="col s12 m12">
+                                            <div class="card">
+                                                <div class="card-image">
+                                                    <img src="/images/reflex-exploded.jpg">
+                                                    <span class="card-title">Card Title</span>
+                                                </div>
+                                                <div class="card-content">
+                                                    <p>Prova descrizione</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 m6">
+                                <div class="icon-block">
+                                    <div class="row">
+                                        <div class="col s12 m12">
+                                            <div class="card">
+                                                <div class="card-image">
+                                                    <img src="/images/digital-exploded.jpg">
+                                                    <span class="card-title">Card Title</span>
+                                                </div>
+                                                <div class="card-content">
+                                                    <p>Prova descrizione</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
     </body>
-    <?php /*include("../component/footer.html");*/ ?>
+    <?php include("../component/footer.html"); ?>
     <!--Script-->
     <script src="../../js/jquery.min.js" type="text/javascript"></script>
     <script src="../../js/materialize.min.js" type="text/javascript"></script>
