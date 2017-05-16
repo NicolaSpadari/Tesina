@@ -8,6 +8,7 @@
         <!--CSS-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="../../css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="../../css/material-scrolltop.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="../../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link rel="shortcut icon" type="image/png" sizes="16x16" href="../../images/favicon.png"/>
     </head>
@@ -82,17 +83,19 @@
                     </div>
                     <br><br><div class="divider"></div><br><br>
                     <div class="row">
-                        <h3 id="titolo" class="col s12 light center header">Cenni storici</h3>
+                        <h3 id="titolo" class="col s12 light center header">Funzionamento della fotocamera</h3>
                     </div>
                     <div class="row">
                         <div class="row blocks">
                             <div class="col s12 m12">
                                 <div class="icon-block">
                                     <p class="light" style="text-align: center">
-                                        Aristotele osservò che la luce, passando attraverso un piccolo foro, proiettava un'immagine circolare.<br>
-                                        Nel 1515 Leonardo da Vinci, studiando la riflessione della luce sulle superfici sferiche, descrisse una camera oscura che chiamò "Oculus Artificialis" (occhio artificiale).<br>
-                                        Un apparecchio simile usato per studiare l'eclissi solare del 1544 fu illustrato dallo scienziato olandese Rainer Geinma Frisius.<br>
-                                        Gerolamo Cardano nel 1550 utilizzò una lente convessa per aumentare la luminosità dell'immagine, mentre Daniele Barbaro nel 1568 usò un'ottica di diametro inferiore a quello della lente per ridurre le aberrazioni, cioè la differenza tra l'immagine ottenuta dal sistema e quella reale che si vuole ottenere.
+                                        Le parti fondamentali per una fotocamera sono:<br>
+                                        Una lente o degli specchi, che concentrano la luce e la proiettano sul piano di immagine; ciò costituisce l'obiettivo.<br>
+                                        Un otturatore meccanico o elettronico che controlla la durata del tempo di esposizione della pellicola, lastra o sensore di cattura.<br>
+                                        Il diaframma che controlla l'ingresso della luce.<br>
+                                        La prima apertura ha dimensioni stabilite dal diaframma ed è controllata dall'otturatore, mentre la parte relativa alla registrazione dell'immagine è costituita da un sensore fotosensibile;<br>
+                                        La pellicola e la lastra fotografica è usata nelle macchine fotografiche tradizionali, mentre il sensore digitale nelle fotocamere digitali.
                                     </p>
                                 </div>
                             </div>
@@ -100,7 +103,49 @@
                     </div>
                     <br><br><div class="divider"></div><br><br>
                     <div class="row">
-                        <h3 id="titolo" class="col s12 light center header">Esempi fotocamere</h3>
+                        <h3 id="titolo" class="col s12 light center header">Componenti principali</h3>
+                    </div>
+                    <div class="row">
+                        <div class="row blocks">
+                            <div class="col s12 m12">
+                                <div class="icon-block">
+                                    <table class="highlight responsive-table">
+                                        <thead>
+                                            <tr>
+                                                <th>Nome</th>
+                                                <th>Descrizione</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Diaframma</td>
+                                                <td>Meccanismo usato per regolare la quantità della luce che attraversa l'obiettivo</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Otturatore</td>
+                                                <td>Dispositivo che controlla il tempo di esposizione alla luce per la pellicola o il sensore</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Supporto fotosensibile</td>
+                                                <td>Pellicola o sensore esposto alla luce</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Dorso</td>
+                                                <td>Elemento mobile che può contenere la pellicola piana o la pellicola in rullo</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Pentaprisma</td>
+                                                <td>Elemento che permette di vedere l'immagine riflessa dallo specchio delle macchine fotografiche senza che risulti capovolta o invertita</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br><div class="divider"></div><br><br>
+                    <div class="row">
+                        <h3 id="titolo" class="col s12 light center header">Componenti a confronto</h3>
                     </div>
                     <div class="row">
                         <div class="row blocks">
@@ -111,10 +156,9 @@
                                             <div class="card">
                                                 <div class="card-image">
                                                     <img src="/images/reflex-exploded.jpg">
-                                                    <span class="card-title">Card Title</span>
                                                 </div>
                                                 <div class="card-content">
-                                                    <p>Prova descrizione</p>
+                                                    <h5>Interno di una fotocamera analogica</h5>
                                                 </div>
                                             </div>
                                         </div>
@@ -128,10 +172,9 @@
                                             <div class="card">
                                                 <div class="card-image">
                                                     <img src="/images/digital-exploded.jpg">
-                                                    <span class="card-title">Card Title</span>
                                                 </div>
                                                 <div class="card-content">
-                                                    <p>Prova descrizione</p>
+                                                    <h5>Interno di una fotocamera digitale</h5>
                                                 </div>
                                             </div>
                                         </div>
@@ -143,10 +186,12 @@
                 </div>
             </div>
         </main>
+        <button class="material-scrolltop" type="button"></button>
     </body>
     <?php include("../component/footer.html"); ?>
     <!--Script-->
     <script src="../../js/jquery.min.js" type="text/javascript"></script>
     <script src="../../js/materialize.min.js" type="text/javascript"></script>
+    <script src="../../js/material-scrolltop.js" type="text/javascript"></script>
     <script src="../../js/init.js" type="text/javascript"></script>
 </html>
