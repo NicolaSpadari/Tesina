@@ -22,6 +22,14 @@
     ?>
     <body class="body-index">
         <main>
+            <div class="banner">
+                <div class="wrapper-banner">
+                    <div class="container-banner">
+                        <img class="img-banner" src="/images/speed-banner.jpg">
+                        <h2 class="text-banner">Alta velocità</h2>
+                    </div>
+                </div>
+            </div>
             <div class="container">
                 <div class="section">
                     <div class="row">
@@ -32,58 +40,85 @@
                             <div class="col s12 m12">
                                 <div class="icon-block">
                                     <p class="light" style="text-align: center">
-                                        Una fotocamera ad alta velocità è un dispositivo in grado di esposizioni di immagine superiori a 1 / 1.000 o frame-rate superiori ai 250 fotogrammi al secondo. È utilizzato per la registrazione di oggetti in rapido movimento come immagine fotografica su di un supporto di memorizzazione. Dopo la registrazione, le immagini memorizzate sul supporto possono essere riprodotti in slow-motion.[92] Gli utilizzi di queste fotocamere sono in vari ambiti: sono spesso utilizzate in produzioni televisive di molti grandi eventi sportivi per il rallentatore instant replay; in ambito scientifico per catturare i movimenti degli animali ad alta velocità, oppure studi di biomeccanica di analisi del movimento. In amito industriale sono usate al fine di caratterizzare gli eventi che accadono troppo velocemente per vedere, ad esempio, cosa accade durante la produzione. In ambito militare sono usate per studiare lo scoppio di ordigni o per studiare il comportamento di vari sistemi di arma.
+                                        È un dispositivo capace di eseguire scatti superiori ai 250 fotogrammi al secondo, ed è utilizzato per la registrazione di oggetti in rapidissimo movimento.<br>
+                                        Dopo la registrazione le immagini memorizzate possono essere riprodotte in slow-motion.<br>
+                                        Possiamo trovare tre diversi tipi di videocamere rapide:
                                     </p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <br><br><div class="divider"></div><br><br>
-                    <div class="row">
-                        <h3 id="titolo" class="col s12 light center header">Differenze rispetto a una fotocamera standard</h3>
-                    </div>
+                    </div>                    
                     <div class="row">
                         <div class="row blocks">
-                            <div class="col s12 m6">
+                            <div class="col s12 m4">
                                 <div class="icon-block">
-                                    <h2 class="center light-blue-text"><i class="material-icons fotocamere">camera</i></h2>
-                                    <h5 class="center">FAB</h5>
                                     <div class="row">
-                                        <div class="col s12 m6">
+                                        <div class="col s12 m12">
                                             <div class="card">
-                                                <div class="card-image">
-                                                    <img src="/images/image.jpg">
-                                                    <span class="card-title">Card Title</span>
-                                                    <a class="btn-floating activator halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
-                                                </div>
                                                 <div class="card-content">
-                                                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                                                    <h5 class="card-title activator grey-text text-darken-4" style="text-align: center">Ad alta velocità</h5>
+                                                </div>
+                                                <div class="card-image">
+                                                    <img src="/images/highspeed.jpg">
                                                 </div>
                                                 <div class="card-reveal">
-                                                    <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                                                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                                    <span class="card-title grey-text text-darken-4">Ad alta velocità<i class="material-icons right">close</i></span>
+                                                    <p>
+                                                        Lo slow-motion o rallentatore è un effetto generalmente cinematografico in cui un movimento è riprodotto a una velocità più lenta del normale.<br>
+                                                        Ciò è possibile grazie all'alta frequenza di catturamento delle immagini da dispositivi come videocamere ad alta velocità.
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col s12 m6">
+                            <div class="col s12 m4">
                                 <div class="icon-block">
-                                    <h2 class="center light-blue-text"><i class="material-icons fotocamere">camera_alt</i></h2>
-                                    <h5 class="center">Reveal</h5>
-                                    <div class="card">
-                                        <div class="card-image">
-                                            <img src="/images/image.jpg">
-                                            <span class="card-title">Card Title</span>
-                                            <a class="btn-floating activator halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                                    <div class="row">
+                                        <div class="col s12 m12">
+                                            <div class="card">
+                                                <div class="card-content">
+                                                    <h5 class="card-title activator grey-text text-darken-4" style="text-align: center">Autovelox</h5>
+                                                </div>
+                                                <div class="card-image">
+                                                    <img src="/images/autovelox.jpg">
+                                                </div>
+                                                <div class="card-reveal">
+                                                    <span class="card-title grey-text text-darken-4">Autovelox<i class="material-icons right">close</i></span>
+                                                    <p>
+                                                        Gli autovelox sono dotati di due cellule:<br>
+                                                        il passaggio della testa di un veicolo attraverso il fascio della prima cellula fà partire un timer interrompendo il fascio,<br>
+                                                        mentre il passaggio attraverso il secondo fascio blocca il timer ottenendo un intervallo di tempi.<br>
+                                                        La velocità è calcolata in funzione del tempo impiegato ad attraversare i due fasci, una volta conosciuta la distanza tra le due cellule, con la formula<br>
+                                                        V = S/T
+                                                    </p>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="card-content">
-                                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                                        </div>
-                                        <div class="card-reveal">
-                                            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 m4">
+                                <div class="icon-block">
+                                    <div class="row">
+                                        <div class="col s12 m12">
+                                            <div class="card">
+                                                <div class="card-content">
+                                                    <h5 class="card-title activator grey-text text-darken-4" style="text-align: center">Rapatronic</h5>
+                                                </div>
+                                                <div class="card-image">
+                                                    <img src="/images/rapatronic.jpg">
+                                                </div>
+                                                <div class="card-reveal">
+                                                    <span class="card-title grey-text text-darken-4">Rapatronic<i class="material-icons right">close</i></span>
+                                                    <p>
+                                                        Una particolare fotocamera ad alta velocità è la fotocamera rapatronic (Rapid action electronic).<br>
+                                                        È un modello molto particolare di fotocamera in grado di produrre immagini in un tempo di soli 10 nanosecondi.<br>
+                                                        Il primo utilizzo di questa particolare fotocamera è stato per studiare gli effetti delle esplosioni nucleari.
+                                                    </p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
