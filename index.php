@@ -51,15 +51,12 @@
             </div><div class="section white">
                 <div class="row container">
                     <h2 class="header"><a href="common/fotocamere/highspeed.php">Alta velocità</a></h2>
-                    <p class="grey-text text-darken-3 lighten-3">Esempio testo fotocamere ad alta velocità</p>
-                </div>
-            </div>
-            <div class="parallax-container">
-                <div class="parallax"><img src="images/bg-femtografia.jpg"></div>
-            </div><div class="section white">
-                <div class="row container">
-                    <h2 class="header"><a href="common/fotocamere/femtografia.php">Femtografica</a></h2>
-                    <p class="grey-text text-darken-3 lighten-3">Esempio testo fotocamere femtografiche</p>
+                    <p class="grey-text text-darken-3 lighten-3">
+                        Le videocamere ad alta velocità sono molto utilizzate in eventi sportivi per il rallentatore instant replay.<br>
+                        In ambito scientifico sono usate ad esempio per catturare i movimenti degli animali ad alta velocità, oppure<br>
+                        in amito industriale, per osservare eventi che accadono troppo velocemente per essere visti.<br>
+                        In ambito militare sono usate per studiare lo scoppio di ordigni o per studiare il comportamento di varie armi.
+                    </p>
                 </div>
             </div>
             <div class="parallax-container">
