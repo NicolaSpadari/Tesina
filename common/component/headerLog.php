@@ -21,7 +21,7 @@
 <header>
     <nav>
         <div class="nav-wrapper">
-            <a href="/Tesina/index.php" class="brand-logo center">Benvenuto <?php echo "".getNome($_SESSION['usernameLog']); ?></a>
+            <a href="/index.php" class="brand-logo center">Benvenuto <?php echo "".getNome($_SESSION['usernameLog']); ?></a>
             <ul class="right hide-on-med-and-down">
                 <li>
                     <form id="logout" class="col s12" name="modulo" action="#" method="post" style="margin-right: 1em">
