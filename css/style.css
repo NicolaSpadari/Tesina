@@ -66,3 +66,24 @@ main{
 #titolo{
     color: #ff9800;
 }
+
+/*BANNER*/
+.wrapper-banner{
+    width: 100%;
+    overflow: hidden;
+}
+.container-banner{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.img-banner{
+    width: 100%;
+}
+.text-banner{
+    position: absolute;
+    top: 13%;
+    left: 2em;
+    width: 100%;
+    color: #fff;
+}
