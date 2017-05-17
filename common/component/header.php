@@ -55,7 +55,7 @@
     
     <div id="form-login" class="modal">
       <div class="modal-content">
-        <h4>Login  <i class="material-icons">account_box</i></h4>
+        <h4>Login  <i class="material-icons">person</i></h4>
         <div class="row">
             <form id="login" class="col s12" name="modulo" action="#" method="post">
                 <div class="row">
@@ -88,7 +88,7 @@
     
     <div id="form-registrazione" class="modal">
       <div class="modal-content">
-        <h4>Registrati  <i class="material-icons">border_color</i></h4>
+        <h4>Registrati  <i class="material-icons">person_add</i></h4>
         <div class="row">
             <form id="registrazione" class="col s12" name="modulo" action="#" method="post">
                 <div class="row">
