@@ -57,9 +57,3 @@
     font-size: 25px;
     color: #fff;
 }
-.material-scrolltop,
-.material-scrolltop::before {
-    background-image: url(/images/top.svg);
-    background-position: center 50%;
-    background-repeat: no-repeat;
-}
