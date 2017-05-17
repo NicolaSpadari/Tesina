@@ -64,7 +64,11 @@
             </div><div class="section white">
                 <div class="row container">
                     <h2 class="header"><a href="common/fotocamere/termica.php">Termocamere</a></h2>
-                    <p class="grey-text text-darken-3 lighten-3">Esempio testo termocamere</p>
+                    <p class="grey-text text-darken-3 lighten-3">
+                        La termografia è utile nel mondo del restauro in quanto rileva l'umidità nelle murature e individua le superfici maggiormente a rischio.<br>
+                        In campo industriale questo tipo di tecnologia previene i fermi macchina dei macchinari di produzione in caso di guasti, e nel campo dell'edilizia risulta utile<br>
+                        per rilevare le dispersioni di calore che possono derivare da finestre o porte.
+                    </p>
                 </div>
             </div>
             <div class="parallax-container">
