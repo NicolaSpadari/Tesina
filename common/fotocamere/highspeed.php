@@ -135,7 +135,7 @@
                                         Esiste anche un altro tipo di videocamere ultrarapide: le femtocamere.<br>
                                         Femtofotografia è un termine riferito alla cattura di immagini ad altissima velocità,
                                         in grado di catturare luce in tratti così brevi che percorre soltanto 6 mm (pari a pochi picosecondi, o migliaia di femtosecondi).<br>
-                                        Il femtosecondo equivale a questi secondi: 0,000 000 000 000 001.
+                                        Un femtosecondo equivale a 0,000 000 000 000 001 secondi (10<sup>-15</sup>).
                                     </p>
                                 </div>
                             </div>
