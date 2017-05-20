@@ -26,7 +26,7 @@
                 <div class="wrapper-banner">
                     <div class="container-banner">
                         <img class="img-banner" src="/images/night-banner.jpg">
-                        <h2 class="text-banner">Alta velocità</h2>
+                        <h2 class="text-banner">Notturna</h2>
                     </div>
                 </div>
             </div>
