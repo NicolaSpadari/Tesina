@@ -4,24 +4,30 @@
         require 'connect.php';
         connessione();
         global $connetti;        
-        $result = mysql_query("SELECT Nome FROM credenziali WHERE NomeUtente = '$username'");
+        $result = mysqli_query($connetti, "SELECT Nome, Sesso FROM credenziali WHERE NomeUtente = '$username'");
 
         if($result === FALSE){ 
             die(mysql_error());
         }
 
-        while($row = mysql_fetch_array($result)){
+        while($row = mysqli_fetch_array($result)){
             $nome = $row['Nome'];
+            $sesso = $row['Sesso'];
         }
-        mysql_close($connetti);
-        return $nome;
+        mysqli_close($connetti);
+        
+        if($sesso == "M"){
+            return "Benvenuto ".$nome;
+        }else{
+            return "Benvenuta ".$nome;
+        }
     }
 ?>
 
 <header>
     <nav>
         <div class="nav-wrapper">
-            <a href="/index.php" class="brand-logo center">Benvenuto <?php echo "".getNome($_SESSION['usernameLog']); ?></a>
+            <a href="/index.php" class="brand-logo center"><?php echo "".getNome($_SESSION['usernameLog']); ?></a>
             <ul class="right hide-on-med-and-down">
                 <li>
                     <form id="logout" class="col s12" name="modulo" action="#" method="post" style="margin-right: 1em">
