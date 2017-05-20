@@ -5,14 +5,14 @@
         $dbHost = "localhost";
         $dbName = "tesina";
         $dbUser = "root";
-        $dbPassw = "";
+        $dbPass = "";
 
-        $connetti = mysql_connect($dbHost, $dbUser, $dbPassw); 
+        $connetti = mysqli_connect($dbHost, $dbUser, $dbPass, $dbName, "3306");
         if(!$connetti){ 
             die('Connessione fallita: ' . mysql_error());               
         } 
 
-        mysql_select_db($dbName, $connetti)
+        mysqli_select_db($connetti, $dbName)
             or die("Impossibile selezionare il database");
     }
 ?>
