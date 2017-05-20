@@ -16,6 +16,11 @@ $(document).ready(function(){
     $('.modal').modal();
 });
 
+/*SELECT*/
+$(document).ready(function() {
+    $('select').material_select();
+});
+
 /*SLIDER*/
 $(document).ready(function(){
     $('.slider').slider();
