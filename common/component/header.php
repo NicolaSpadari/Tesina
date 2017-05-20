@@ -76,7 +76,7 @@
     <?php
         if(isset($_REQUEST["invioLog"])){
             $_SESSION['usernameLog'] = $usernameLog = $_REQUEST["usernameLog"];
-            $_SESSION['passwordLog'] = $passwordLog = $_REQUEST["passwordLog"];
+            $_SESSION['passwordLog'] = $passwordLog = md5($_REQUEST["passwordLog"]);
             require 'connect.php';
             connessione();
             login($usernameLog, $passwordLog);
@@ -136,7 +136,7 @@
             $_SESSION['cognome'] = $cognome = $_REQUEST["cognome"];
             $_SESSION['username'] = $username = $_REQUEST["username"];
             $_SESSION['email'] = $email = $_REQUEST["email"];
-            $_SESSION['password'] = $password = $_REQUEST["password"];
+            $_SESSION['password'] = $password = md5($_REQUEST["password"]);
             $_SESSION['sesso'] = $sesso = $_REQUEST["sesso"];
             include("connect.php");
             connessione();
