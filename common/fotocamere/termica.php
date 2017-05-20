@@ -33,23 +33,6 @@
             <div class="container">
                 <div class="section">
                     <div class="row">
-                        <h3 id="titolo" class="col s12 light center header">Funzionamento</h3>
-                    </div>
-                    <div class="row">
-                        <div class="row blocks">
-                            <div class="col s12 m12">
-                                <div class="icon-block">
-                                    <p class="light" style="text-align: center">
-                                        Le termocamere rilevano le radiazioni nel campo dell'infrarosso dello spettro elettromagnetico e compiono misure in base all'emissione di queste radiazioni.<br>
-                                        Questo strumento è in rileva le temperature in base all'intensità di radiazione emessa; tutti gli oggetti ad una temperatura superiore allo zero assoluto emettono radiazioni nel campo dell'infrarosso.<br>
-                                        La vera utilità sta nella visione immediata di possibili surriscaldamenti (ad esempio a macchinari), che consente di intervenire mentre sono in funzione e prima che si verifichino guasti.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <br><br><div class="divider"></div><br><br>
-                    <div class="row">
                         <h3 id="titolo" class="col s12 light center header">Definizione</h3>
                     </div>
                     <div class="row">
@@ -63,6 +46,23 @@
                                         L'immagine è costruita su una matrice di un certo numero di pixel per un certo numero di righe;
                                         l'elettronica dello strumento legge velocemente il valore di energia immagazzinata da ogni singolo pixel e genera un'immagine, in bianco e nero o in falsi colori, dell'oggetto osservato.<br>
                                         Le caratteristiche che distinguono principalmente i diversi dispositivi sono:
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <br><br><div class="divider"></div><br><br>
+                    <div class="row">
+                        <h3 id="titolo" class="col s12 light center header">Funzionamento</h3>
+                    </div>
+                    <div class="row">
+                        <div class="row blocks">
+                            <div class="col s12 m12">
+                                <div class="icon-block">
+                                    <p class="light" style="text-align: center">
+                                        Le termocamere rilevano le radiazioni nel campo dell'infrarosso dello spettro elettromagnetico e compiono misure in base all'emissione di queste radiazioni.<br>
+                                        Questo strumento è in rileva le temperature in base all'intensità di radiazione emessa; tutti gli oggetti ad una temperatura superiore allo zero assoluto emettono radiazioni nel campo dell'infrarosso.<br>
+                                        La vera utilità sta nella visione immediata di possibili surriscaldamenti (ad esempio a macchinari), che consente di intervenire mentre sono in funzione e prima che si verifichino guasti.
                                     </p>
                                 </div>
                             </div>
