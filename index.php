@@ -54,7 +54,7 @@
                     <p class="grey-text text-darken-3 lighten-3">
                         Le videocamere ad alta velocità sono molto utilizzate in eventi sportivi per il rallentatore instant replay.<br>
                         In ambito scientifico sono usate ad esempio per catturare i movimenti degli animali ad alta velocità, oppure<br>
-                        in amito industriale, per osservare eventi che accadono troppo velocemente per essere visti.<br>
+                        in ambito industriale, per osservare eventi che accadono troppo velocemente per essere visti.<br>
                         In ambito militare sono usate per studiare lo scoppio di ordigni o per studiare il comportamento di varie armi.
                     </p>
                 </div>
@@ -75,8 +75,12 @@
                 <div class="parallax"><img src="images/bg-air.jpg"></div>
             </div><div class="section white">
                 <div class="row container">
-                    <h2 class="header"><a href="common/fotocamere/aria.php">Aria</a></h2>
-                    <p class="grey-text text-darken-3 lighten-3">Esempio testo fotocamere aria</p>
+                    <h2 class="header"><a href="common/fotocamere/aria.php">Strioscopia</a></h2>
+                    <p class="grey-text text-darken-3 lighten-3">
+                        La tecnica dell'ombrografia viene usata in ingegneria aerospaziale per esaminare il flusso di missili e velivoli ad alta velocità,<br>
+                        oltre che nelle ricerche sulla combustione, nella balistica e nelle esplosioni.<br>
+                        Ombrigrafia e ombrogramma sono stati usati anche nell'animazione, per rafforzare il realismo del cartone animato (es. Walt Disney). 
+                    </p>
                 </div>
             </div>
             <div class="parallax-container">
