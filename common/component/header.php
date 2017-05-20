@@ -2,13 +2,13 @@
     function login($username, $password)
     {
         global $connetti;        
-        $result = mysql_query("SELECT * FROM credenziali");
+        $result = mysqli_query($connetti, "SELECT * FROM credenziali");
 
         if($result === FALSE){ 
             die(mysql_error());
         }
 
-        while($row = mysql_fetch_array($result)){
+        while($row = mysqli_fetch_array($result)){
             if($row['NomeUtente'] == $username && $row['Password'] == $password){
                 header("Refresh:0");
             }else{
@@ -20,22 +20,19 @@
                 break;
             }
         }
-        mysql_close($connetti);
+        mysqli_close($connetti);
     }
     
-    function registrazione($username, $nome, $cognome, $email, $password)
+    function registrazione($username, $nome, $cognome, $email, $password, $sesso)
     {
         global $connetti;
-        $result = mysql_query("INSERT INTO credenziali(NomeUtente, Nome, Cognome, Email, Password, Sesso) VALUES('$username', '$nome', '$cognome', '$email', '$password')");
+        $result = mysqli_query($connetti, "INSERT INTO credenziali(NomeUtente, Nome, Cognome, Email, Password, Sesso) VALUES('$username', '$nome', '$cognome', '$email', '$password', '$sesso')");
 
-        if($result){
-            echo "Registrazione avvenuta";
-        }
-        else{
+        if(!$result){
             echo "Registrazione fallita";
         }
             
-        mysql_close($connetti);
+        mysqli_close($connetti);
     }
 ?>
 
@@ -112,9 +109,17 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="input-field col s12">
+                    <div class="input-field col s9">
                         <input id="password" name="password" type="password" class="validate">
                         <label for="password">Password</label>
+                    </div>
+                    <div class="input-field col s3">
+                        <select name="sesso">
+                            <option value="" disabled selected>Seleziona il tuo sesso</option>
+                            <option value="M">Maschio</option>
+                            <option value="F">Femmina</option>
+                        </select>
+                        <label>Sesso</label>
                     </div>
                 </div>
             </form>
@@ -132,9 +137,10 @@
             $_SESSION['username'] = $username = $_REQUEST["username"];
             $_SESSION['email'] = $email = $_REQUEST["email"];
             $_SESSION['password'] = $password = $_REQUEST["password"];
+            $_SESSION['sesso'] = $sesso = $_REQUEST["sesso"];
             include("connect.php");
             connessione();
-            registrazione($username, $nome, $cognome, $email, $password);
+            registrazione($username, $nome, $cognome, $email, $password, $sesso);
         }
     ?>
 </header>
