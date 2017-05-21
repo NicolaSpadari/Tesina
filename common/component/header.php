@@ -8,19 +8,21 @@
             die(mysql_error());
         }
 
+        $loginStatus = false;
         while($row = mysqli_fetch_array($result)){
             if($row['NomeUtente'] == $username && $row['Password'] == $password){
-                header("Refresh:0");
-            }else{
-                if($row['NomeUtente'] == $username && !($row['Password'] == $password)){
-                    echo "Password errata";
-                }else{
-                    echo "L'utente non esiste nel database";
-                }
-                break;
+                $loginStatus = true;
+                $_SESSION['usernameLog'] = $username;
+                $_SESSION['passwordLog'] = $password;
             }
         }
+        if(!$loginStatus){
+            echo "Credenziali errate.";
+        } else {
+            echo "Login avvenuto con successo!<br>Reindirizzamento in 3 secondi...";
+        }
         mysqli_close($connetti);
+        return $loginStatus;
     }
     
     function registrazione($username, $nome, $cognome, $email, $password, $sesso)
@@ -75,11 +77,12 @@
     </div>
     <?php
         if(isset($_REQUEST["invioLog"])){
-            $_SESSION['usernameLog'] = $usernameLog = $_REQUEST["usernameLog"];
-            $_SESSION['passwordLog'] = $passwordLog = md5($_REQUEST["passwordLog"]);
             require 'connect.php';
             connessione();
-            login($usernameLog, $passwordLog);
+            if (login($_REQUEST["usernameLog"],  md5($_REQUEST["passwordLog"]))) {
+                header("Refresh:3");
+            }
+            
         }
     ?>
     
