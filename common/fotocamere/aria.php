@@ -8,7 +8,6 @@
         <!--CSS-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="../../css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-        <link href="../../css/material-scrolltop.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="../../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link rel="shortcut icon" type="image/png" sizes="16x16" href="../../images/favicon.png"/>
     </head>
@@ -188,6 +187,5 @@
     <!--Script-->
     <script src="../../js/jquery.min.js" type="text/javascript"></script>
     <script src="../../js/materialize.min.js" type="text/javascript"></script>
-    <script src="../../js/material-scrolltop.js" type="text/javascript"></script>
     <script src="../../js/init.js" type="text/javascript"></script>
 </html>
