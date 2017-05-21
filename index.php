@@ -8,7 +8,6 @@
         <!--CSS-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-        <link href="css/material-scrolltop.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link rel="shortcut icon" type="image/png" sizes="16x16" href="images/favicon.png"/>
     </head>
@@ -104,12 +103,15 @@
                 <a href="principale.php" class="btn-large waves-effect waves-light goto-start">MATERIE</a>
             </div>
         </main>
-        <button class="material-scrolltop" type="button"><i class="material-icons">keyboard_arrow_up</i></button>
+        <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+            <a class="btn-floating btn-large teal waves-effect waves-light">
+                <i class="material-icons">keyboard_arrow_up</i>
+            </a>
+        </div>
     </body>
     <?php include("common/component/footer.html"); ?>
     <!--Script-->
     <script src="js/jquery.min.js" type="text/javascript"></script>
     <script src="js/materialize.min.js" type="text/javascript"></script>
-    <script src="js/material-scrolltop.js" type="text/javascript"></script>
     <script src="js/init.js" type="text/javascript"></script>
 </html>
