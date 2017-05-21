@@ -217,7 +217,11 @@
                 </div>
             </div>
         </main>
-        <button class="material-scrolltop" type="button"><i class="material-icons">keyboard_arrow_up</i></button>
+        <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+            <a class="btn-floating btn-large teal waves-effect waves-light">
+                <i class="material-icons">keyboard_arrow_up</i>
+            </a>
+        </div>
     </body>
     <?php include("../component/footer.html"); ?>
     <!--Script-->
