@@ -86,8 +86,12 @@
                 <div class="parallax"><img src="images/bg-xray.jpg"></div>
             </div><div class="section white">
                 <div class="row container">
-                    <h2 class="header"><a href="common/fotocamere/xray.php">Raggi-X</a></h2>
-                    <p class="grey-text text-darken-3 lighten-3">Esempio testo fotocamere raggi-x</p>
+                    <h2 class="header"><a href="common/fotocamere/xray.php">Raggi X</a></h2>
+                    <p class="grey-text text-darken-3 lighten-3">
+                        I raggi X sono usati principalmente in ambito medico per le radiografie, per conoscere di che elementi è composto un materiale (spettrofotometria XRF),<br>
+                        negli aeroporti per controllare i bagagli e per verificare la resistenza dei materiale sotto sforzo (spettroscopia XAS).<br>
+                        Le ricerche puntano a visualizzare strutture molecolari sempre più piccole; in laboratorio si riesce già a raggiungere risoluzioni di 62 nanometri.
+                    </p>
                 </div>
             </div>
             <div class="parallax-container">
