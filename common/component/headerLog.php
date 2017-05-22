@@ -31,7 +31,7 @@
             <ul class="right hide-on-med-and-down">
                 <li>
                     <form id="logout" class="col s12" name="modulo" action="#" method="post" style="margin-right: 1em">
-                        <button class="btn waves-effect waves-light" type="submit" name="logout">Logout</button>
+                        <button id="btnlogout" class="btn waves-effect waves-light" type="submit" name="logout">Logout</button>
                     </form>
                     <?php
                         if(isset($_REQUEST["logout"])){
