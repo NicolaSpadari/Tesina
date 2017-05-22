@@ -93,3 +93,8 @@ main{
     width: 30%;
     height: 20%;
 }
+
+/*GO TO TOP*/
+.fixed-action-btn {
+    display: none;
+}
