@@ -1,41 +1,40 @@
 <?php
+    function login($username, $password) {
+        global $connetti;
+        $result = mysqli_query($connetti, "SELECT * FROM credenziali");
 
-function login($username, $password) {
-    global $connetti;
-    $result = mysqli_query($connetti, "SELECT * FROM credenziali");
-
-    if ($result === FALSE) {
-        die(mysql_error());
-    }
-
-    $loginStatus = false;
-    while ($row = mysqli_fetch_array($result)) {
-        if ($row['NomeUtente'] == $username && $row['Password'] == $password) {
-            $loginStatus = true;
-            $_SESSION['usernameLog'] = $username;
-            $_SESSION['passwordLog'] = $password;
+        if ($result === FALSE) {
+            die(mysql_error());
         }
+
+        $loginStatus = false;
+        while ($row = mysqli_fetch_array($result)) {
+            if ($row['NomeUtente'] == $username && $row['Password'] == $password) {
+                $loginStatus = true;
+                $_SESSION['usernameLog'] = $username;
+                $_SESSION['passwordLog'] = $password;
+            }
+        }
+        if (!$loginStatus) {
+            echo '<script type="text/javascript">',
+                 'warn();',
+                 '</script>';
+        }
+
+        mysqli_close($connetti);
+        return $loginStatus;
     }
-    if (!$loginStatus) {
-        echo '<script type="text/javascript">',
-             'warn();',
-             '</script>';
+
+    function registrazione($username, $nome, $cognome, $email, $password, $sesso) {
+        global $connetti;
+        $result = mysqli_query($connetti, "INSERT INTO credenziali(NomeUtente, Nome, Cognome, Email, Password, Sesso) VALUES('$username', '$nome', '$cognome', '$email', '$password', '$sesso')");
+
+        if (!$result) {
+            echo "Registrazione fallita";
+        }
+
+        mysqli_close($connetti);
     }
-
-    mysqli_close($connetti);
-    return $loginStatus;
-}
-
-function registrazione($username, $nome, $cognome, $email, $password, $sesso) {
-    global $connetti;
-    $result = mysqli_query($connetti, "INSERT INTO credenziali(NomeUtente, Nome, Cognome, Email, Password, Sesso) VALUES('$username', '$nome', '$cognome', '$email', '$password', '$sesso')");
-
-    if (!$result) {
-        echo "Registrazione fallita";
-    }
-
-    mysqli_close($connetti);
-}
 ?>
 
 <header>
@@ -71,37 +70,22 @@ function registrazione($username, $nome, $cognome, $email, $password, $sesso) {
             </div>
         </div>
         <div class="modal-footer">
-            <a class="modal-action modal-close btn-flat waves-effect waves-teal" type="submit" name="invioLog" form="login" href="#popup-login">Login</a>
+            <button class="modal-action modal-close btn-flat waves-effect waves-teal" type="submit" name="invioLog" form="login">Login</button>
             <a href="#!" class="modal-action modal-close waves-effect waves-teal btn-flat">Chiudi</a>
         </div>
     </div>
-
-    <div id="popup-login" class="modal">
-        <div class="modal-content">
-            <h4>Login in corso  <i class="material-icons">person_outline</i></h4>
-            <p>Verrai reindirizzato a breve, attendi.</p>
-            <div class="preloader-wrapper active" style="display: block; margin: 0 auto">
-                <div class="spinner-layer spinner-blue-only">
-                    <div class="circle-clipper left">
-                        <div class="circle"></div>
-                    </div><div class="gap-patch">
-                        <div class="circle"></div>
-                    </div><div class="circle-clipper right">
-                        <div class="circle"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    
     <?php
-    if (isset($_REQUEST["invioLog"])) {
-        require 'connect.php';
-        connessione();
-        if (login($_REQUEST["usernameLog"], md5($_REQUEST["passwordLog"]))) {
-            header("Refresh:3");
+        if (isset($_REQUEST["invioLog"])) {
+            require 'connect.php';
+            connessione();
+            if (login($_REQUEST["usernameLog"], md5($_REQUEST["passwordLog"]))) {
+                header("Refresh:0");
+            }
+            else{
+                echo "Credenziali errate.";
+            }
         }
-    }
     ?>
 
     <div id="form-registrazione" class="modal">
