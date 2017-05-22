@@ -66,6 +66,9 @@ main{
 #titolo{
     color: #ff9800;
 }
+#btnlogout{
+    background-color: #ff9800;
+}
 
 /*BANNER*/
 .wrapper-banner{
