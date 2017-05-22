@@ -1,30 +1,28 @@
 /*CAROUSEL*/
-$(document).ready(function(){
+$(document).ready(function () {
     $('.carousel').carousel({
-        dist:0, shift:0, padding:20
+        dist: 0, shift: 0, padding: 20
     });
-});
-$('.carousel.carousel-slider').carousel({fullWidth: true});
-
-/*PARALLAX*/
-$(document).ready(function(){
+    $(document).scroll(function () {
+        if ($(window).scrollTop() === 0) {
+            $('.fixed-action-btn').fadeOut(250);
+        } else {
+            $('.fixed-action-btn').fadeIn(250);
+        }
+    });
     $('.parallax').parallax();
-});
-
-/*MODAL*/
-$(document).ready(function(){
     $('.modal').modal();
-});
-
-/*SELECT*/
-$(document).ready(function() {
     $('select').material_select();
-});
-
-/*SLIDER*/
-$(document).ready(function(){
     $('.slider').slider();
 });
 
+$('.carousel.carousel-slider').carousel({fullWidth: true});
+
 /*SCROLLTOP*/
 $('body').materialScrollTop();
+
+/*ALERT*/
+function warn() {
+    alert('Errore');
+    document.write('Credenziali errate');
+}
