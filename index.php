@@ -99,7 +99,10 @@
             </div><div class="section white">
                 <div class="row container">
                     <h2 class="header"><a href="common/fotocamere/plenottica.php">Plenottica</a></h2>
-                    <p class="grey-text text-darken-3 lighten-3">Esempio testo fotocamere plenottiche</p>
+                    <p class="grey-text text-darken-3 lighten-3">
+                        Non servirà attendere la giusta condizione di luce o cercare l’angolo o la prospettiva perfetta;<br>
+                        non dobbiamo far altro che scattare, perché sarà possibile intervenire totalmente sulla foto in post-produzione.
+                    </p>
                 </div>
             </div>
             
