@@ -1,40 +1,39 @@
 <?php
-    function login($username, $password) {
-        global $connetti;
-        $result = mysqli_query($connetti, "SELECT * FROM credenziali");
 
-        if ($result === FALSE) {
-            die(mysql_error());
-        }
+function login($username, $password) {
+    global $connetti;
+    $result = mysqli_query($connetti, "SELECT * FROM credenziali");
 
-        $loginStatus = false;
-        while ($row = mysqli_fetch_array($result)) {
-            if ($row['NomeUtente'] == $username && $row['Password'] == $password) {
-                $loginStatus = true;
-                $_SESSION['usernameLog'] = $username;
-                $_SESSION['passwordLog'] = $password;
-            }
-        }
-        if (!$loginStatus) {
-            echo '<script type="text/javascript">',
-                 'warn();',
-                 '</script>';
-        }
-
-        mysqli_close($connetti);
-        return $loginStatus;
+    if ($result === FALSE) {
+        die(mysql_error());
     }
 
-    function registrazione($username, $nome, $cognome, $email, $password, $sesso) {
-        global $connetti;
-        $result = mysqli_query($connetti, "INSERT INTO credenziali(NomeUtente, Nome, Cognome, Email, Password, Sesso) VALUES('$username', '$nome', '$cognome', '$email', '$password', '$sesso')");
-
-        if (!$result) {
-            echo "Registrazione fallita";
+    $loginStatus = false;
+    while ($row = mysqli_fetch_array($result)) {
+        if ($row['NomeUtente'] == $username && $row['Password'] == $password) {
+            $loginStatus = true;
+            $_SESSION['usernameLog'] = $username;
+            $_SESSION['passwordLog'] = $password;
         }
-
-        mysqli_close($connetti);
     }
+    if(!$loginStatus){
+        echo "<script> alert('Credenziali errate'); </script>";
+    }
+
+    mysqli_close($connetti);
+    return $loginStatus;
+}
+
+function registrazione($username, $nome, $cognome, $email, $password, $sesso) {
+    global $connetti;
+    $result = mysqli_query($connetti, "INSERT INTO credenziali(NomeUtente, Nome, Cognome, Email, Password, Sesso) VALUES('$username', '$nome', '$cognome', '$email', '$password', '$sesso')");
+
+    if (!$result) {
+        echo "Registrazione fallita";
+    }
+
+    mysqli_close($connetti);
+}
 ?>
 
 <header>
@@ -70,20 +69,17 @@
             </div>
         </div>
         <div class="modal-footer">
-            <button class="modal-action modal-close btn-flat waves-effect waves-teal" type="submit" name="invioLog" form="login">Login</button>
+            <button class="btn-flat waves-effect waves-teal tooltipped" type="submit" name="invioLog" form="login" data-position="top" data-delay="15" data-tooltip="Sarai reindirizzato a breve">Login</button>
             <a href="#!" class="modal-action modal-close waves-effect waves-teal btn-flat">Chiudi</a>
         </div>
     </div>
-    
+
     <?php
-        if (isset($_REQUEST["invioLog"])) {
-            require 'connect.php';
+        if(isset($_REQUEST["invioLog"])){
+            require_once 'connect.php';
             connessione();
-            if (login($_REQUEST["usernameLog"], md5($_REQUEST["passwordLog"]))) {
-                header("Refresh:0");
-            }
-            else{
-                echo "Credenziali errate.";
+            if(login($_REQUEST["usernameLog"], md5($_REQUEST["passwordLog"]))){
+                header("Refresh:1");
             }
         }
     ?>
@@ -131,10 +127,11 @@
             </div>
         </div>
         <div class="modal-footer">
-            <button class="btn-flat waves-effect waves-teal" type="submit" name="invioReg" form="registrazione">Conferma</button>
+            <button class="btn-flat waves-effect waves-teal tooltipped" type="submit" name="invioReg" form="registrazione" data-position="top" data-delay="15" data-tooltip="Dovrai eseguire il login">Conferma</button>
             <a href="#!" class="modal-action modal-close waves-effect waves-teal btn-flat">Chiudi</a>
         </div>
     </div>
+
     <?php
     if (isset($_REQUEST["invioReg"])) {
         $_SESSION['nome'] = $nome = $_REQUEST["nome"];
