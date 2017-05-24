@@ -8,7 +8,7 @@ $(document).ready(function () {
     /*SCROLLTOP*/
     $(document).scroll(function () {
         if ($(window).scrollTop() === 0) {
-            $('.fixed-action-btn').fadeOut(350);
+            $('.fixed-action-btn').fadeOut(300);
         } else {
             $('.fixed-action-btn').fadeIn(250);
         }
