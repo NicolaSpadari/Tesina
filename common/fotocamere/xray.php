@@ -139,9 +139,9 @@
                     </div>
                     <div class="row">
                         <div class="row blocks">
-                            <div class="col s12 m12">
+                            <div class="col s12 m8 offset-l2">
                                 <div class="video-container">
-                                    <iframe width="853" height="480" src="https://youtube.com/embed/pz6ns_U7Fno?start=7&end=20" frameborder="0"></iframe>
+                                    <iframe width="853" height="480" src="https://youtube.com/embed/pz6ns_U7Fno?start=7&end=20&vq=medium" frameborder="0"></iframe>
                                 </div>
                             </div>
                         </div>
