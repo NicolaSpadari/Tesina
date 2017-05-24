@@ -164,7 +164,7 @@
                         <div class="row blocks">
                             <div class="col s12 m8 offset-l2">
                                 <div class="video-container">
-                                    <iframe id="videoAria" width="853" height="480" src="https://youtube.com/embed/lSFwH0BVd3Q?start=39&end=54" frameborder="0"></iframe>
+                                    <iframe width="853" height="480" src="https://youtube.com/embed/lSFwH0BVd3Q?start=39&end=54&vq=medium" frameborder="0"></iframe>
                                 </div>
                             </div>
                         </div>
