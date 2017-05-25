@@ -40,12 +40,6 @@ main{
 .parallax-container{
     height: 700px;
 }
-.section{
-    height: 260px;
-}
-.collapsible{
-    margin-right: 75%;
-}
 
 /*ICONE*/
 .material-icons.fotocamere{
