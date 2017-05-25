@@ -21,18 +21,18 @@
     ?>
     <body class="body-index">
         <main>
-            <div class="carousel carousel-slider center" data-indicators="true">
-                <div class="carousel-item white black-text" href="#one!">
+            <div id="materie" class="carousel carousel-slider center" data-indicators="true">
+                <div class="carousel-item white black-text" href="#uno">
                     <h2>Informatica</h2>
                     <div class="divider"></div>
                     <?php include("common/materie/informatica.php"); ?>
                 </div>
-                <div class="carousel-item white black-text" href="#two!">
+                <div class="carousel-item white black-text" href="#due">
                     <h2>TPSIT</h2>
                     <div class="divider"></div>
                     <?php include("common/materie/tpsit.php"); ?>
                 </div>
-                <div class="carousel-item white black-text" href="#three!">
+                <div class="carousel-item white black-text" href="#tre">
                     <h2>Sistemi</h2>
                     <div class="divider"></div>
                     <?php include("common/materie/sistemi.php"); ?>
