@@ -79,7 +79,7 @@ function registrazione($username, $nome, $cognome, $email, $password, $sesso) {
             require_once 'connect.php';
             connessione();
             if(login($_REQUEST["usernameLog"], md5($_REQUEST["passwordLog"]))){
-                header("Refresh:1");
+                header("Refresh:0");
             }
         }
     ?>
