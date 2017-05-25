@@ -1,6 +1,18 @@
 /*INIZIALIZZAZIONE FUNZIONI*/
 
 $(document).ready(function () {
+    /*PARALLAX*/
+    $('.parallax').parallax();
+    /*MODAL*/
+    $('.modal').modal();
+    /*SELECT*/
+    $('select').material_select();
+    /*SLIDE*/
+    $('.slider').slider();
+    /*SCROLLTOP*/
+    $('body').materialScrollTop();
+    /*FULLSCREEN CAROUSEL*/
+    $('.carousel.carousel-slider').carousel({fullWidth: true});
     /*CAROUSEL*/
     $('.carousel').carousel({
         dist: 0, shift: 0, padding: 20
@@ -13,18 +25,4 @@ $(document).ready(function () {
             $('.fixed-action-btn').fadeIn(250);
         }
     });
-    /*PARALLAX*/
-    $('.parallax').parallax();
-    /*MODAL*/
-    $('.modal').modal();
-    /*SELECT*/
-    $('select').material_select();
-    /*SLIDE*/
-    $('.slider').slider();
 });
-
-/*FULLSCREEN CAROUSEL*/
-$('.carousel.carousel-slider').carousel({fullWidth: true});
-
-/*SCROLLTOP*/
-$('body').materialScrollTop();
