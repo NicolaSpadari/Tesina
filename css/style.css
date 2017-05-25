@@ -24,18 +24,6 @@ main{
     flex: 1 0 auto;
 }
 
-/*CAROUSEL*/
-.carousel .indicators{
-    position: static;
-    margin-top: -10px;
-}
-.carousel .indicators .indicator-item{
-    background-color: rgba(0, 0, 0, 0.5);
-}
-.carousel .indicators .indicator-item.active{
-    background-color: #000;
-}
-
 /*PARALLAX*/
 .parallax-container{
     height: 700px;
@@ -50,9 +38,6 @@ main{
 .btn-center{
     text-align: center;
     margin: 5% 0 3% 0;
-}
-.carousel.carousel-slider .carousel-item h2{
-    margin-bottom: 3%;
 }
 .div.blocks{
     margin: 0 15% 0 15%;
