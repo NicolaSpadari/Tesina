@@ -26,3 +26,9 @@ $(document).ready(function () {
         }
     });
 });
+function prev(){
+    $('.carousel').carousel('prev');
+}
+function next(){
+    $('.carousel').carousel('next');
+}
