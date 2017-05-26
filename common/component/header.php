@@ -40,7 +40,7 @@ function registrazione($username, $nome, $cognome, $email, $password, $sesso) {
     <nav>
         <div class="nav-wrapper">
             <a href="/index.php" class="brand-logo center">TESINA</a>
-            <ul class="right hide-on-med-and-down">
+            <ul class="right">
                 <li><a class="dropdown-button" href="#!" data-activates="area-utente">Area utente<i class="material-icons right">arrow_drop_down</i></a></li>
             </ul>
         </div>
