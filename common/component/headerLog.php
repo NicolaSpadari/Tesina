@@ -28,7 +28,7 @@
     <nav>
         <div class="nav-wrapper">
             <a href="/index.php" class="brand-logo center"><?php echo "".getNome($_SESSION['usernameLog']); ?></a>
-            <ul class="right hide-on-med-and-down">
+            <ul class="right">
                 <li>
                     <form id="logout" class="col s12" name="modulo" action="#" method="post" style="margin-right: 1em">
                         <button id="btnlogout" class="btn waves-effect waves-light" type="submit" name="logout">Logout</button>
