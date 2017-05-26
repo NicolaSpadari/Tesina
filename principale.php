@@ -22,8 +22,8 @@
     <body class="body-index">
         <main>
             <div class="center" style="padding-top: 1%">
-                <a class="btn-floating waves-effect waves-light teal" type="button" onclick="$('.carousel').carousel('prev');"><i class="material-icons">arrow_back</i></a>
-                <a class="btn-floating waves-effect waves-light teal" type="button" onclick="$('.carousel').carousel('next');"><i class="material-icons">arrow_forward</i></a>
+                <a class="btn-floating waves-effect waves-light teal" type="button" onclick="prev();"><i class="material-icons">arrow_back</i></a>
+                <a class="btn-floating waves-effect waves-light teal" type="button" onclick="next();"><i class="material-icons">arrow_forward</i></a>
             </div>
             <div class="carousel carousel-slider center">                
                 <div class="carousel-item white black-text" href="#uno">
