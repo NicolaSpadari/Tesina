@@ -20,9 +20,9 @@ $(document).ready(function () {
     /*SCROLLTOP*/
     $(document).scroll(function () {
         if ($(window).scrollTop() === 0) {
-            $('.fixed-action-btn').fadeOut(300);
+            $('#btt').fadeOut(300);
         } else {
-            $('.fixed-action-btn').fadeIn(250);
+            $('#btt').fadeIn(250);
         }
     });
 });
