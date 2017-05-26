@@ -110,7 +110,7 @@
                 <a href="principale.php" class="btn-large waves-effect waves-light goto-start">MATERIE</a>
             </div>
         </main>
-        <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+        <div id="btt" class="fixed-action-btn" style="bottom: 45px; right: 24px;">
             <a class="btn-floating btn-large teal waves-effect waves-light">
                 <i class="material-icons">keyboard_arrow_up</i>
             </a>
