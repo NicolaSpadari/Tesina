@@ -37,11 +37,11 @@ function registrazione($username, $nome, $cognome, $email, $password, $sesso) {
 ?>
 
 <header>
-    <nav>
-        <div class="nav-wrapper">
-            <a href="/index.php" class="brand-logo center">TESINA</a>
+    <nav class="white" role="navigation">
+        <div class="nav-wrapper container">
+            <a href="/index.php" class="brand-logo">Tesina</a>
             <ul class="right">
-                <li><a class="dropdown-button" href="#!" data-activates="area-utente">Area utente<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a class="dropdown-button" data-beloworigin="true" href="#!" data-activates="area-utente">Area utente</a></li>
             </ul>
         </div>
     </nav>
