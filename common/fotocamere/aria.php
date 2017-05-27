@@ -25,7 +25,6 @@
                 <div class="wrapper-banner">
                     <div class="container-banner">
                         <img class="img-banner" src="/images/air-banner.jpg">
-                        <h2 class="text-banner">Strioscopia</h2>
                     </div>
                 </div>
             </div>
@@ -178,8 +177,8 @@
             </div>
         </main>
         <div id="btt" class="fixed-action-btn" style="bottom: 45px; right: 24px;">
-            <a class="btn-floating btn-large white waves-effect waves-light">
-                <i class="material-icons black-text">keyboard_arrow_up</i>
+            <a class="btn-floating btn-large grey lighten-2 waves-effect waves-light">
+                <i class="material-icons">keyboard_arrow_up</i>
             </a>
         </div>
     </body>
