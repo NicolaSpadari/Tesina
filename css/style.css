@@ -1,5 +1,5 @@
 /*HEADER*/
-nav .brand-logo, nav ul a{
+nav .brand-logo, nav ul a, footer-title{
     color: #444;
 }
     
@@ -11,6 +11,13 @@ nav .brand-logo, nav ul a{
 }
 main{
     flex: 1 0 auto;
+}
+.footer-title{
+    font-size: .9rem;
+}
+.footer-desc{
+    color: #aaa;
+    font-size: .8rem;
 }
 
 /*PARALLAX*/
@@ -50,13 +57,6 @@ main{
 }
 .img-banner{
     width: 100%;
-}
-.text-banner{
-    position: absolute;
-    top: 13%;
-    left: 2em;
-    width: 100%;
-    color: #fff;
 }
 
 /*MODAL*/
