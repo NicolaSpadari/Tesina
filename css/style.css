@@ -1,20 +1,9 @@
-/*INDEX*/
-.collection{
-    margin: 2% 40% 1% 40%;
-}
-
 /*HEADER*/
-nav{
-    background-color: #00796b;
-}
 nav .brand-logo, nav ul a{
-    color: #fff;
+    color: #444;
 }
     
 /*FOOTER*/
-.page-footer{
-    background-color: #00796b;
-}
 .body-index{
     display: flex;
     min-height: 100vh;
@@ -26,7 +15,7 @@ main{
 
 /*PARALLAX*/
 .parallax-container{
-    height: 700px;
+    height: 450px;
 }
 
 /*ICONE*/
@@ -45,8 +34,8 @@ main{
 #titolo{
     color: #ff9800;
 }
-#btnlogout{
-    background-color: #ff9800;
+#paragrafo{
+    color: #444;
 }
 
 /*BANNER*/
