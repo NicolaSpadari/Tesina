@@ -116,8 +116,7 @@ function registrazione($username, $nome, $cognome, $email, $password, $sesso) {
                         </div>
                         <div class="input-field col s3">
                             <select name="sesso">
-                                <option value="" disabled selected>Seleziona il tuo sesso</option>
-                                <option value="M">Maschio</option>
+                                <option value="M" selected>Maschio</option>
                                 <option value="F">Femmina</option>
                             </select>
                             <label>Sesso</label>
