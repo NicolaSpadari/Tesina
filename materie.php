@@ -32,16 +32,32 @@
                 </div>
             </div>
             <div id="informatica" class="col s12">
-                <?php include("/common/materie/informatica.php"); ?>
+                <?php
+                    $path = $_SERVER['DOCUMENT_ROOT'];
+                    $path .= "/common/materie/informatica.php";
+                    include_once($path);
+                ?>
             </div>
             <div id="tpsit" class="col s12">
-                <?php include("/common/materie/tpsit.php"); ?>
+                <?php
+                    $path = $_SERVER['DOCUMENT_ROOT'];
+                    $path .= "/common/materie/tpsit.php";
+                    include_once($path);
+                ?>
             </div>
             <div id="sistemi" class="col s12">
-                <?php include("/common/materie/sistemi.php"); ?>
+                <?php
+                    $path = $_SERVER['DOCUMENT_ROOT'];
+                    $path .= "/common/materie/sistemi.php";
+                    include_once($path);
+                ?>
             </div>
             <div id="inglese" class="col s12">
-                <?php include("/common/materie/inglese.php"); ?>
+                <?php
+                    $path = $_SERVER['DOCUMENT_ROOT'];
+                    $path .= "/common/materie/inglese.php";
+                    include_once($path);
+                ?>
             </div>
         </main>
     </body>
