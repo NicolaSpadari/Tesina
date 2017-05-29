@@ -1,5 +1,5 @@
 /*HEADER*/
-nav .brand-logo, nav ul a, footer-title{
+nav .brand-logo, nav ul a, footer-title, #materia{
     color: #444;
 }
     
@@ -68,4 +68,16 @@ main{
 /*GO TO TOP*/
 .fixed-action-btn {
     display: none;
+}
+
+/*TABS*/
+.tabs .indicator{
+    background-color: #1de9c3;
+}
+#pdf{
+    width: 60%; 
+    margin: 0 auto;
+}
+.carousel.carousel-slider.initialized{
+    min-height: 700px !important;
 }
