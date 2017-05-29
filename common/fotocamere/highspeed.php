@@ -216,7 +216,7 @@
             </div>
         </main>
         <div id="btt" class="fixed-action-btn" style="bottom: 45px; right: 24px;">
-            <a class="btn-floating btn-large grey lighten-2 waves-effect waves-light">
+            <a class="btn-floating btn-large teal lighten-2 waves-effect waves-light">
                 <i class="material-icons">keyboard_arrow_up</i>
             </a>
         </div>
