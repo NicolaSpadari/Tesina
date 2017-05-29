@@ -112,7 +112,7 @@
             </div>
             
             <div class="btn-center">
-                <a href="principale.php" class="btn-large waves-effect waves-light goto-start">MATERIE</a>
+                <a href="materie.php" class="btn-large waves-effect waves-light goto-start">MATERIE</a>
             </div>
         </main>
         <div id="btt" class="fixed-action-btn" style="bottom: 45px; right: 24px;">
