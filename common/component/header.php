@@ -41,11 +41,11 @@ function registrazione($username, $nome, $cognome, $email, $password, $sesso) {
         <div class="nav-wrapper container">
             <a href="/index.php" class="brand-logo">Tesina</a>
             <ul class="right">
-                <li><a class="dropdown-button" data-beloworigin="true" href="#!" data-activates="area-utente">Area utente</a></li>
+                <li><a class="dropdown-button" data-beloworigin="true" href="#!" data-activates="accedi">Accedi</a></li>
             </ul>
         </div>
     </nav>
-    <ul id="area-utente" class="dropdown-content">
+    <ul id="accedi" class="dropdown-content">
         <li><a class="waves-effect waves-light" href="#form-login">Login</a></li>
         <li><a class="waves-effect waves-light" href="#form-registrazione">Registrati</a></li>
     </ul>
@@ -132,6 +132,7 @@ function registrazione($username, $nome, $cognome, $email, $password, $sesso) {
     </div>
 
     <?php
+    global $username;
     if (isset($_REQUEST["invioReg"])) {
         $_SESSION['nome'] = $nome = $_REQUEST["nome"];
         $_SESSION['cognome'] = $cognome = $_REQUEST["cognome"];
