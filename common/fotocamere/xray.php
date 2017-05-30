@@ -58,7 +58,7 @@
                                         Nel 1892 Heinrich Hertz dimostrò che i raggi catodici potevano passare attraverso fogli di metallo molto sottile.
                                         Philip Lenard, uno studente di Hertz, continuò ad investigare, sviluppò una nuova versione del tubo catodico e studiò la penetrazione dei raggi X attraverso vari metalli,
                                         senza sapere che la radiazione che stava producendo era qualcosa di non ancora scoperto;<br>
-                                        nel 1895 Röntgen, uno scienziato tedesco, iniziò a osservare raggi X mentre sperimentava con i tubi a vuoto, uno dei quali era il modello avanzato costruito in precedenza da Lenard.<br>
+                                        nel 1895 Röntgen, uno scienziato tedesco, iniziò a osservare i raggi X mentre sperimentava con i tubi a vuoto, uno dei quali era il modello avanzato costruito in precedenza da Lenard.<br>
                                         Röntgen scrisse un rapporto su "un nuovo tipo di raggi" che chiamò come "radiazione X" in quanto era ancora di tipo sconosciuto, ma rimase tale negli anni fino ad oggi.
                                     </p>
                                 </div>
