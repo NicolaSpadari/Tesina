@@ -1,7 +1,11 @@
 <div class="row">
     <div class="center" style="padding-top: 1%; margin-bottom: 2%">
-        <a class="btn-floating waves-effect waves-light teal" type="button" onclick="prev();"><i class="material-icons">arrow_back</i></a>
-        <a class="btn-floating waves-effect waves-light teal" type="button" onclick="next();"><i class="material-icons">arrow_forward</i></a>
+        <div class="div-left-back">
+            <a class="btn-floating btn-large waves-effect waves-light teal" type="button" onclick="prev();"><i class="material-icons">arrow_back</i></a>
+        </div>
+        <div class="div-right-forward">
+            <a class="btn-floating btn-large waves-effect waves-light teal" type="button" onclick="next();"><i class="material-icons">arrow_forward</i></a>
+        </div>
     </div>
     <div id="pdf" class="carousel carousel-slider">
         <a class="carousel-item" href="#pag1"><img src="/images/pdf/0001.jpg"></a>
