@@ -33,7 +33,7 @@ main{
 /*CONTENUTO*/
 .btn-center{
     text-align: center;
-    margin: 5% 0 3% 0;
+    margin: 3% 0 3% 0;
 }
 .div.blocks{
     margin: 0 15% 0 15%;
@@ -80,4 +80,13 @@ main{
 }
 .carousel.carousel-slider.initialized{
     min-height: 700px !important;
+}
+.div-left-back, .div-right-forward{
+    display: inline-block;
+}
+.div-left-back{
+    margin-right: 1%;
+}
+.div-right-forward{
+    margin-left: 1%;
 }
