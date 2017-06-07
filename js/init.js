@@ -32,3 +32,13 @@ function prev(){
 function next(){
     $('.carousel').carousel('next');
 }
+document.onkeydown = function(e) {
+    switch (e.keyCode) {
+        case 37:
+            prev();
+            break;
+        case 39:
+            next();
+            break;
+    }
+};
