@@ -5,19 +5,19 @@ function login($username, $password) {
     $result = mysqli_query($connetti, "SELECT * FROM credenziali");
 
     if ($result === FALSE) {
-        die(mysql_error());
+	die(mysql_error());
     }
 
     $loginStatus = false;
     while ($row = mysqli_fetch_array($result)) {
-        if ($row['NomeUtente'] == $username && $row['Password'] == $password) {
-            $loginStatus = true;
-            $_SESSION['usernameLog'] = $username;
-            $_SESSION['passwordLog'] = $password;
-        }
+	if ($row['NomeUtente'] == $username && $row['Password'] == $password) {
+	    $loginStatus = true;
+	    $_SESSION['usernameLog'] = $username;
+	    $_SESSION['passwordLog'] = $password;
+	}
     }
-    if(!$loginStatus){
-        echo "<script> alert('Credenziali errate'); </script>";
+    if (!$loginStatus) {
+	echo "<script> alert('Credenziali errate'); </script>";
     }
 
     mysqli_close($connetti);
@@ -29,7 +29,7 @@ function registrazione($username, $nome, $cognome, $email, $password, $sesso) {
     $result = mysqli_query($connetti, "INSERT INTO credenziali(NomeUtente, Nome, Cognome, Email, Password, Sesso) VALUES('$username', '$nome', '$cognome', '$email', '$password', '$sesso')");
 
     if (!$result) {
-        echo "Registrazione fallita";
+	echo "Registrazione fallita";
     }
 
     mysqli_close($connetti);
@@ -39,9 +39,16 @@ function registrazione($username, $nome, $cognome, $email, $password, $sesso) {
 <header>
     <nav class="white" role="navigation">
         <div class="nav-wrapper container">
-            <a href="/index.php" class="brand-logo">Tesina</a>
+            <a href="/index.php" class="brand-logo">Fotocamere particolari</a>
             <ul class="right">
                 <li><a class="dropdown-button" data-beloworigin="true" href="#!" data-activates="accedi">Accedi</a></li>
+		<?php
+		if (basename($_SERVER['PHP_SELF']) == "premessa.php") {
+		    echo "<li><a href='/index.php'>Home</a></li>";
+		}else{
+		    echo "<li><a href='/premessa.php'>Premessa</a></li>";		    
+		}
+		?>
             </ul>
         </div>
     </nav>
@@ -75,13 +82,13 @@ function registrazione($username, $nome, $cognome, $email, $password, $sesso) {
     </div>
 
     <?php
-        if(isset($_REQUEST["invioLog"])){
-            require_once 'connect.php';
-            connessione();
-            if(login($_REQUEST["usernameLog"], md5($_REQUEST["passwordLog"]))){
-                header("Refresh:0");
-            }
-        }
+    if (isset($_REQUEST["invioLog"])) {
+	require_once 'connect.php';
+	connessione();
+	if (login($_REQUEST["usernameLog"], md5($_REQUEST["passwordLog"]))) {
+	    header("Refresh:0");
+	}
+    }
     ?>
 
     <div id="form-registrazione" class="modal">
@@ -134,15 +141,15 @@ function registrazione($username, $nome, $cognome, $email, $password, $sesso) {
     <?php
     global $username;
     if (isset($_REQUEST["invioReg"])) {
-        $_SESSION['nome'] = $nome = $_REQUEST["nome"];
-        $_SESSION['cognome'] = $cognome = $_REQUEST["cognome"];
-        $_SESSION['username'] = $username = $_REQUEST["username"];
-        $_SESSION['email'] = $email = $_REQUEST["email"];
-        $_SESSION['password'] = $password = md5($_REQUEST["password"]);
-        $_SESSION['sesso'] = $sesso = $_REQUEST["sesso"];
-        include("connect.php");
-        connessione();
-        registrazione($username, $nome, $cognome, $email, $password, $sesso);
+	$_SESSION['nome'] = $nome = $_REQUEST["nome"];
+	$_SESSION['cognome'] = $cognome = $_REQUEST["cognome"];
+	$_SESSION['username'] = $username = $_REQUEST["username"];
+	$_SESSION['email'] = $email = $_REQUEST["email"];
+	$_SESSION['password'] = $password = md5($_REQUEST["password"]);
+	$_SESSION['sesso'] = $sesso = $_REQUEST["sesso"];
+	include("connect.php");
+	connessione();
+	registrazione($username, $nome, $cognome, $email, $password, $sesso);
     }
     ?>
 </header>
