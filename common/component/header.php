@@ -14,6 +14,7 @@ function login($username, $password) {
 	    $loginStatus = true;
 	    $_SESSION['usernameLog'] = $username;
 	    $_SESSION['passwordLog'] = $password;
+	    $_SESSION['admin'] = $row['Admin'];
 	}
     }
     if (!$loginStatus) {
