@@ -110,10 +110,16 @@
                     </p>
                 </div>
             </div>
-            
-            <div class="btn-center">
-                <a href="materie.php" class="btn-large waves-effect waves-light goto-start">MATERIE</a>
-            </div>
+            <?php
+		if(isset($_SESSION['admin'])){
+		    if($_SESSION['admin'] == "Y"){
+			echo "<br><div class='divider'></div><br>";
+			echo "<div class='btn-center'>";
+			echo "<a href='materie.php' class='btn-large waves-effect waves-light goto-start'>MATERIE</a>";
+			echo "</div>";
+		    }
+		}
+	    ?>	    
         </main>
         <?php include("common/component/top-button.html"); ?>
     </body>
