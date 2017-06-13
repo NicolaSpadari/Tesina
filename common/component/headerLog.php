@@ -22,19 +22,6 @@ function getNome($username) {
         return "Benvenuta " . $nome;
     }
 }
-
-function elimina($username){
-    global $connetti;
-    $result = mysqli_query($connetti, "DELETE FROM credenziali WHERE NomeUtente = '$username'");
-
-    if ($result === FALSE) {
-        echo "<script> alert('Eliminazione fallita'); </script>";
-        die(mysql_error());
-    }
-    mysqli_close($connetti);
-    session_destroy();
-    header("Refresh:3");
-}
 ?>
 
 <header>
@@ -47,33 +34,7 @@ function elimina($username){
         </div>
     </nav>
     <ul id="area-utente" class="dropdown-content">
-        <li><a class="waves-effect waves-light" href="/common/component/logout.php">Logout</a></li>
         <li><a class="waves-effect waves-light" href="/users.php">Utenti</a></li>
-        <li><a class="waves-effect waves-light" href="#popup-alert">Elimina<br>account</a></li>
+        <li><a class="waves-effect waves-light" href="/common/component/logout.php">Logout</a></li>
     </ul>
-
-    <div id="popup-alert" class="modal">
-        <div class="modal-content">
-            <h4>Eliminazione account  <i class="material-icons">error</i></h4>
-            <p>
-                Stai per eliminare il tuo account.<br>
-                Questa procedura non può essere annullata.
-            </p>
-        </div>
-        <div class="modal-footer">
-            <form id="logout" class="col s12" name="modulo" action="#" method="post" style="margin-right: 1em">
-                <button class="btn-flat waves-effect waves-red" type="submit" name="elimina-account" style="color: red">Elimina account</button>
-            </form>
-            <a href="#!" class="modal-action modal-close waves-effect waves-teal btn-flat">Chiudi</a>
-        </div>
-    </div>
-
-    <?php
-    global $username;
-    if (isset($_REQUEST['elimina-account'])) {
-        require_once 'connect.php';
-        connessione();
-        elimina($username);
-    }
-    ?>
 </header>
