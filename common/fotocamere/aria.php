@@ -65,7 +65,7 @@
                     </div>
                     <div class="row">
                         <div class="row blocks">
-                            <div class="col s12 m6">
+                            <div class="col s12 m5 offset-l1">
                                 <div class="icon-block">
                                     <div class="row">
                                         <div class="col s12 m12">
@@ -86,7 +86,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col s12 m6">
+                            <div class="col s12 m5">
                                 <div class="icon-block">
                                     <div class="row">
                                         <div class="col s12 m12">
@@ -111,7 +111,7 @@
                     </div>
                     <div class="row">
                         <div class="row blocks">
-                            <div class="col s12 m6">
+                            <div class="col s12 m5 offset-l1">
                                 <div class="icon-block">
                                     <div class="row">
                                         <div class="col s12 m12">
@@ -132,7 +132,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col s12 m6">
+                            <div class="col s12 m5">
                                 <div class="icon-block">
                                     <div class="row">
                                         <div class="col s12 m12">
@@ -157,7 +157,7 @@
                     </div>
                     <br><br><div class="divider"></div><br><br>
                     <div class="row">
-                        <h3 id="titolo" class="col s12 light center header">Video con degli esempi</h3>
+                        <h3 id="titolo" class="col s12 light center header">Video dimostrativo</h3>
                     </div>
                     <div class="row">
                         <div class="row blocks">
