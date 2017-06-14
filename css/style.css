@@ -44,6 +44,11 @@ main{
 #paragrafo{
     color: #444;
 }
+#premessa{
+    text-align: center;
+    margin-top: 5em;
+    font-size: 1.2rem;
+}
 
 /*BANNER*/
 .wrapper-banner{
