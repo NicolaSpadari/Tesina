@@ -25,9 +25,9 @@
                 <div class="col s12" style="padding: 0">
                     <ul class="tabs tabs-fixed-width z-depth-1">
                         <li class="tab col s3"><a id="materia" class="active" href="#informatica">Informatica</a></li>
-                        <li class="tab col s3"><a id="materia" href="#tpsit">TPSIT</a></li>
-                        <li class="tab col s3"><a id="materia" href="#sistemi">SISTEMI</a></li>
-                        <li class="tab col s3"><a id="materia" href="#inglese">INGLESE</a></li>
+                        <li class="tab col s3"><a id="materia" href="#inglese">Inglese</a></li>
+                        <li class="tab col s3"><a id="materia" href="#tpsit">Tpsit</a></li>
+                        <li class="tab col s3"><a id="materia" href="#sistemi">Sistemi</a></li>
                     </ul>
                 </div>
             </div>
@@ -35,6 +35,13 @@
                 <?php
                     $path = $_SERVER['DOCUMENT_ROOT'];
                     $path .= "/common/materie/informatica.php";
+                    include_once($path);
+                ?>
+            </div>
+            <div id="inglese" class="col s12">
+                <?php
+                    $path = $_SERVER['DOCUMENT_ROOT'];
+                    $path .= "/common/materie/inglese.php";
                     include_once($path);
                 ?>
             </div>
@@ -49,13 +56,6 @@
                 <?php
                     $path = $_SERVER['DOCUMENT_ROOT'];
                     $path .= "/common/materie/sistemi.php";
-                    include_once($path);
-                ?>
-            </div>
-            <div id="inglese" class="col s12">
-                <?php
-                    $path = $_SERVER['DOCUMENT_ROOT'];
-                    $path .= "/common/materie/inglese.php";
                     include_once($path);
                 ?>
             </div>
