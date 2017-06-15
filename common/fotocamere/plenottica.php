@@ -66,7 +66,7 @@
                     </div>
                     <div class="row">
                         <div class="row blocks">
-                            <div class="col s12 m6">
+                            <div class="col s12 m5 offset-l1">
                                 <div class="icon-block">
                                     <div class="row">
                                         <div class="col s12 m12">
@@ -87,7 +87,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col s12 m6">
+                            <div class="col s12 m5">
                                 <div class="icon-block">
                                     <div class="row">
                                         <div class="col s12 m12">
@@ -96,7 +96,7 @@
                                                     <h5 class="card-title activator grey-text text-darken-4" style="text-align: center">Interno</h5>
                                                 </div>
                                                 <div class="card-image">
-                                                    <img src="/images/plenottica-2.jpg">
+                                                    <img class="materialboxed" data-caption="La lente centrale è una matrice formata da microlenti" src="/images/plenottica-2.jpg">
                                                 </div>
                                                 <div class="card-content">
                                                     <p class="card-title activator grey-text text-darken-4">
@@ -112,7 +112,7 @@
                     </div>
                     <div class="row">
                         <div class="row blocks">
-                            <div class="col s12 m6">
+                            <div class="col s12 m5 offset-l1">
                                 <div class="icon-block">
                                     <div class="row">
                                         <div class="col s12 m12">
@@ -133,7 +133,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col s12 m6">
+                            <div class="col s12 m5">
                                 <div class="icon-block">
                                     <div class="row">
                                         <div class="col s12 m12">
@@ -160,10 +160,10 @@
             </div>
         </main>
         <?php
-			$path = $_SERVER['DOCUMENT_ROOT'];
-			$path .= "/common/component/top-button.html";
-			include_once($path);
-		?>
+		$path = $_SERVER['DOCUMENT_ROOT'];
+		$path .= "/common/component/top-button.html";
+		include_once($path);
+	?>
     </body>
     <?php include("../component/footer.html"); ?>
     <!--Script-->
