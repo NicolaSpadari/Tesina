@@ -40,6 +40,7 @@ main{
 }
 #titolo{
     color: #ff9800;
+    font-size: 2.92rem !important;
 }
 #paragrafo{
     color: #444;
@@ -48,6 +49,9 @@ main{
     text-align: center;
     margin-top: 5em;
     font-size: 1.2rem;
+}
+.light{
+    font-size: 1.15rem;
 }
 
 /*BANNER*/
