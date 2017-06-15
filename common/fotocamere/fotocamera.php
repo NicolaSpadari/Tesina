@@ -147,7 +147,7 @@
                     </div>
                     <div class="row">
                         <div class="row blocks">
-                            <div class="col s12 m6">
+                            <div class="col s12 m5 offset-l1">
                                 <div class="icon-block">
                                     <div class="row">
                                         <div class="col s12 m12">
@@ -163,7 +163,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col s12 m6">
+                            <div class="col s12 m5">
                                 <div class="icon-block">
                                     <div class="row">
                                         <div class="col s12 m12">
@@ -185,10 +185,10 @@
             </div>
         </main>
         <?php
-			$path = $_SERVER['DOCUMENT_ROOT'];
-			$path .= "/common/component/top-button.html";
-			include_once($path);
-		?>
+	    $path = $_SERVER['DOCUMENT_ROOT'];
+	    $path .= "/common/component/top-button.html";
+	    include_once($path);
+	?>
     </body>
     <?php include("../component/footer.html"); ?>
     <!--Script-->
