@@ -41,7 +41,7 @@ function registrazione($username, $nome, $cognome, $email, $password, $sesso) {
     <nav class="white" role="navigation">
         <div class="nav-wrapper container">
             <div class="phone">
-		<a href="/index.php" class="brand-logo left" style="font-size: 1.15rem">Fotocamere</a>
+		<a href="/index.php" class="brand-logo left" style="font-size: 1.15rem">Tipi di fotocamere</a>
 	    </div>
 	    <div class="pc">
 		<a href="/index.php" class="brand-logo">Fotocamere particolari</a>
