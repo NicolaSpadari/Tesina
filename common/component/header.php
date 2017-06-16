@@ -41,7 +41,7 @@ function registrazione($username, $nome, $cognome, $email, $password, $sesso) {
     <nav class="white" role="navigation">
         <div class="nav-wrapper container">
             <div class="phone">
-		<a href="/index.php" class="brand-logo left">Tesina</a>
+		<a href="/index.php" class="brand-logo left" style="font-size: 1.15rem">Fotocamere</a>
 	    </div>
 	    <div class="pc">
 		<a href="/index.php" class="brand-logo">Fotocamere particolari</a>
@@ -50,6 +50,11 @@ function registrazione($username, $nome, $cognome, $email, $password, $sesso) {
 		<div class="phone">
 		    <li><a class="waves-effect waves-light" href="#form-login"><i class="material-icons">person</i></a></li>
 		    <li><a class="waves-effect waves-light" href="#form-registrazione"><i class="material-icons">person_add</i></a></li>
+		    <?php
+		    if (basename($_SERVER['PHP_SELF']) != "premessa.php") {
+			echo "<li><a href='/premessa.php'><i class='material-icons'>class</i></a></li>";
+		    }
+		    ?>
 		</div>
                 <div class="pc">
 		    <li><a class="dropdown-button" data-beloworigin="true" href="#!" data-activates="accedi">Accedi</a></li>
