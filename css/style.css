@@ -117,3 +117,22 @@ main{
     width: 95%;
     background: #444;
 }
+
+/*CUSTOM SCREEN SIZE*/
+@media (max-width: 480px){
+    .pc{
+	display: none;
+    }
+    .phone{
+	display: block;
+    }
+}
+
+@media (min-width: 481px){
+    .phone{
+	display: none;
+    }
+    .pc{
+	display: block;
+    }
+}
