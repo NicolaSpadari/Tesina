@@ -40,16 +40,27 @@ function registrazione($username, $nome, $cognome, $email, $password, $sesso) {
 <header>
     <nav class="white" role="navigation">
         <div class="nav-wrapper container">
-            <a href="/index.php" class="brand-logo">Fotocamere particolari</a>
+            <div class="phone">
+		<a href="/index.php" class="brand-logo left">Tesina</a>
+	    </div>
+	    <div class="pc">
+		<a href="/index.php" class="brand-logo">Fotocamere particolari</a>
+	    </div>
             <ul class="right">
-                <li><a class="dropdown-button" data-beloworigin="true" href="#!" data-activates="accedi">Accedi</a></li>
-		<?php
-		if (basename($_SERVER['PHP_SELF']) == "premessa.php") {
-		    echo "<li><a href='/index.php'>Home</a></li>";
-		}else{
-		    echo "<li><a href='/premessa.php'>Premessa</a></li>";		    
-		}
-		?>
+		<div class="phone">
+		    <li><a class="waves-effect waves-light" href="#form-login"><i class="material-icons">person</i></a></li>
+		    <li><a class="waves-effect waves-light" href="#form-registrazione"><i class="material-icons">person_add</i></a></li>
+		</div>
+                <div class="pc">
+		    <li><a class="dropdown-button" data-beloworigin="true" href="#!" data-activates="accedi">Accedi</a></li>
+		    <?php
+		    if (basename($_SERVER['PHP_SELF']) == "premessa.php") {
+			echo "<li><a href='/index.php'>Home</a></li>";
+		    } else {
+			echo "<li><a href='/premessa.php'>Premessa</a></li>";
+		    }
+		    ?>
+		</div>
             </ul>
         </div>
     </nav>
