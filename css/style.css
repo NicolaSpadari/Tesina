@@ -42,9 +42,6 @@ main{
     color: #ff9800;
     font-size: 2.92rem !important;
 }
-#paragrafo{
-    color: #444;
-}
 #premessa{
     text-align: center;
     margin-top: 5em;
@@ -98,4 +95,25 @@ main{
 }
 .div-right-forward{
     margin-left: 1%;
+}
+
+/*LINE ANIMATION*/
+#paragrafo{
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+    color: #444;
+}
+#paragrafo:after{
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+#paragrafo:hover:after{
+    width: 95%;
+    background: #444;
 }
