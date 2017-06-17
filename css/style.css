@@ -119,7 +119,7 @@ main{
 }
 
 /*CUSTOM SCREEN SIZE*/
-@media (max-width: 480px){
+@media (max-width: 720px){
     .pc{
 	display: none;
     }
@@ -128,7 +128,7 @@ main{
     }
 }
 
-@media (min-width: 481px){
+@media (min-width: 721px){
     .phone{
 	display: none;
     }
