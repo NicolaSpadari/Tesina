@@ -21,6 +21,23 @@
     ?>
     <body class="body-index">        
         <main>
+	    <div class="parallax-container">
+                <div class="parallax"><img src="images/bg-camera.jpg"></div>
+            </div>            
+            <div class="section white">
+                <div class="row container">
+                    <h3 class="header"><a id="intro">Introduzione</a></h3>
+                    <p class="grey-text text-darken-3 lighten-3">
+			Fotocamere e videocamere sono oggi molto utilizzate in ogni ambito:<br>
+			col passare degli anni sono state inventate sempre più versioni di macchine fotografiche, tipologie create per risolvere problemi
+			altrimenti enormemente complicati o addirittura impossibili.<br>
+			Con l'avanzare della tecnologia fotografica sono state ridotte drasticamente le dimensioni<br>
+			(basta pensare che nei nuovi modelli di smartphone sono incorporate anche 3 fotocamere), e la qualità degli scatti è in continua evoluzione.<br>
+			Ogni tipo creato ha caratteristiche molto speciali che lo contraddistinguono, e tecniche diverse di funzionamento.<br>
+			Di seguito riporto alcuni modelli che presento.
+		    </p>
+                </div>
+            </div>
             <div class="parallax-container">
                 <div class="parallax"><img src="images/bg-photo.jpg"></div>
             </div>            
@@ -28,8 +45,8 @@
                 <div class="row container">
                     <h3 class="header"><a id="paragrafo" href="common/fotocamere/fotocamera.php">Fotocamere</a></h3>
                     <p class="grey-text text-darken-3 lighten-3">
-                        Le fotocamere e le videocamere oggi vengono usate in innumerevoli campi.<br>
-                        C'è chi le utilizza per professione, chi per hobby, oppure per memorizzare ricordi facilmente accessibili con cellulari o tablet.
+                        Le fotocamere analogiche e digitali oggi vengono usate costantemente.<br>
+                        Sono utilizzate per professione, per hobby, oppure per memorizzare ricordi facilmente accessibili da qualsiasi dispositivo elettronico.
                     </p>
                 </div>
             </div>            
@@ -55,7 +72,7 @@
                         Le videocamere ad alta velocità sono molto utilizzate in eventi sportivi per il rallentatore instant replay.<br>
                         In ambito scientifico sono usate ad esempio per catturare i movimenti degli animali ad alta velocità, oppure<br>
                         in ambito industriale, per osservare eventi che accadono troppo velocemente per essere visti.<br>
-                        In ambito militare sono usate per studiare lo scoppio di ordigni o per studiare il comportamento di varie armi.
+                        Per quanto riguarda il campo militare sono usate per studiare lo scoppio di ordigni o per studiare il comportamento di varie armi.
                     </p>
                 </div>
             </div>
@@ -79,9 +96,10 @@
                 <div class="row container">
                     <h3 class="header"><a id="paragrafo" href="common/fotocamere/aria.php">Strioscopia</a></h3>
                     <p class="grey-text text-darken-3 lighten-3">
-                        La tecnica dell'ombrografia viene usata in ingegneria aerospaziale per esaminare il flusso di missili e velivoli ad alta velocità,<br>
+                        La tecnica della strioscopia viene usata in ingegneria aerospaziale per esaminare il flusso di missili e velivoli ad alta velocità,<br>
                         oltre che nelle ricerche sulla combustione, nella balistica e nelle esplosioni.<br>
-                        Ombrigrafia e ombrogramma sono stati usati anche nell'animazione, per rafforzare il realismo del cartone animato (es. Walt Disney). 
+                        L'ombrografia è un metodo di visualizzazione di flussi, collegato al metodo Schlieren, con funzioni simili.<br>
+			Sono stati usati anche nell'animazione, per rafforzare il realismo del cartone animato (es. Walt Disney). 
                     </p>
                 </div>
             </div>
