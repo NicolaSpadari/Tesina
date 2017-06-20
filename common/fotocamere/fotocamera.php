@@ -30,6 +30,60 @@
             </div>
             <div class="container">
                 <div class="section">
+		    <div class="row">
+                        <h3 id="titolo" class="col s12 light center header">Un breve racconto sulle origini della fotocamera moderna</h3>
+                    </div>
+                    <div class="row">
+                        <div class="row blocks">
+                            <div class="col s12 m12">
+                                <div class="icon-block">
+                                    <p class="light" style="text-align: center">
+                                        Nel 1975 Steven Sasson, un ricercatore della Kodak, lavora ad un'invenzione rivoluzionaria: la prima fotocamera digitale.<br>
+					Il suo prototipo iniziale aveva una risoluzione di 0,01 megapixel e catturò la prima immagine in bianco e nero in 23 secondi per registrare poi i dati su una cassetta.
+					Ci vollero alcuni anni di studi e ricerche affinché la qualità dell'immagine divenisse accettabile.<br>
+					La prima fotocamera digitale disponibile sul mercato risale al 1981, ed era la Sony Mavica FD5 con una risoluzione di 570 × 490 pixels.
+				    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+		    <div class="row">
+                        <div class="row blocks">
+                            <div class="col s12 m5 offset-l1">
+                                <div class="icon-block">
+                                    <div class="row">
+                                        <div class="col s12 m12">
+                                            <div class="card">
+                                                <div class="card-image">
+                                                    <img src="/images/steve-sasson.jpg">
+                                                </div>
+                                                <div class="card-content">
+                                                    <h5>Steve Sasson</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 m5">
+                                <div class="icon-block">
+                                    <div class="row">
+                                        <div class="col s12 m12">
+                                            <div class="card">
+                                                <div class="card-image">
+                                                    <img src="/images/sony-mavica.jpg">
+                                                </div>
+                                                <div class="card-content">
+                                                    <h5>Sony Mavica</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+		    <br><br><div class="divider"></div><br><br>
                     <div class="row">
                         <h3 id="titolo" class="col s12 light center header">Funzionamento della fotocamera</h3>
                     </div>
@@ -37,11 +91,11 @@
                         <div class="row blocks">
                             <div class="col s12 m12">
                                 <div class="icon-block">
-                                    <p class="light" style="text-align: center">
-                                        Le parti fondamentali per una fotocamera sono:<br>
-                                        Una lente o degli specchi, che concentrano la luce e la proiettano sul piano di immagine; ciò costituisce l'obiettivo.<br>
-                                        Un otturatore meccanico o elettronico che controlla la durata del tempo di esposizione della pellicola, lastra o sensore di cattura.<br>
-                                        Il diaframma che controlla l'ingresso della luce.<br>
+                                    <p class="light">
+                                        Le parti fondamentali per una fotocamera sono:<br><br>
+                                        -Una lente o degli specchi, che concentrano la luce e la proiettano sul piano di immagine: ciò costituisce l'obiettivo;<br>
+                                        -Un otturatore meccanico o elettronico che controlla la durata del tempo di esposizione della pellicola, lastra o sensore di cattura;<br>
+                                        -Il diaframma che controlla l'ingresso della luce.<br><br>
                                         La prima apertura ha dimensioni stabilite dal diaframma ed è controllata dall'otturatore, mentre la parte relativa alla registrazione dell'immagine è costituita da un sensore fotosensibile;<br>
                                         La pellicola e la lastra fotografica è usata nelle macchine fotografiche tradizionali, mentre il sensore digitale nelle fotocamere digitali.
                                     </p>
@@ -81,33 +135,13 @@
                     </div>
                     <br><br><div class="divider"></div><br><br>
                     <div class="row">
-                        <h3 id="titolo" class="col s12 light center header">Funzionamento della fotocamera</h3>
-                    </div>
-                    <div class="row">
-                        <div class="row blocks">
-                            <div class="col s12 m12">
-                                <div class="icon-block">
-                                    <p class="light" style="text-align: center">
-                                        Le parti fondamentali per una fotocamera sono:<br>
-                                        Una lente o degli specchi, che concentrano la luce e la proiettano sul piano di immagine; ciò costituisce l'obiettivo.<br>
-                                        Un otturatore meccanico o elettronico che controlla la durata del tempo di esposizione della pellicola, lastra o sensore di cattura.<br>
-                                        Il diaframma che controlla l'ingresso della luce.<br>
-                                        La prima apertura ha dimensioni stabilite dal diaframma ed è controllata dall'otturatore, mentre la parte relativa alla registrazione dell'immagine è costituita da un sensore fotosensibile;<br>
-                                        La pellicola e la lastra fotografica è usata nelle macchine fotografiche tradizionali, mentre il sensore digitale nelle fotocamere digitali.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <br><br><div class="divider"></div><br><br>
-                    <div class="row">
                         <h3 id="titolo" class="col s12 light center header">Componenti principali</h3>
                     </div>
                     <div class="row">
                         <div class="row blocks">
                             <div class="col s12 m12">
                                 <div class="icon-block">
-                                    <table class="highlight responsive-table">
+                                    <table class="highlight">
                                         <thead>
                                             <tr>
                                                 <th>Nome</th>
