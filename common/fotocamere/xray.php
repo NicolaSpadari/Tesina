@@ -24,7 +24,7 @@
             <div class="banner">
                 <div class="wrapper-banner">
                     <div class="container-banner">
-                        <img class="img-banner" src="/images/xray-banner.jpg">
+                        <img class="img-banner" src="/images/banner/xray-banner.jpg">
                     </div>
                 </div>
             </div>
