@@ -51,6 +51,15 @@ main{
 .light{
     font-size: 1.15rem;
 }
+#fake-disabled{
+    color: #ababab;
+    background-color: #dfdfdf;
+    box-shadow: none !important;
+}
+#fake-disabled:hover{
+    box-shadow: none !important;
+    cursor: default;
+}
 
 /*BANNER*/
 .wrapper-banner{
