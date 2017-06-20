@@ -26,11 +26,13 @@
                     <div class="row">
 			<div class="row blocks">
                             <div class="col s12 m12">
-                                <div class="icon-block">
+                                <div id="premessa" class="icon-block">
                                     <p class="light" style="text-align: center">
-                                        Ho deciso di proporre il tema delle fotocamere particolari perché mi ha sempre interessato capire il funzionamento di questi speciali tipi di macchine fotografiche.<br>
-					Anche se non sono un esperto di fotografia e non mi sono mai cimentato nel capire a fondo le tecniche per fare un buon scatto, ho comunque pensato di capire almeno in parte il funzionamento di base dietro a queste nuove e sorprendenti tecnologie.
-					In qualsiasi ambito la fotografia è diventata uno strumento quasi fondamentale, che sia per hobby o per lavoro, in molti settori le fotocamere sono utilizzate per diversi scopi, come ho illustrato nella pagina principale.
+                                        Nella mia tesina ho deciso di proporre il tema delle fotocamere particolari spiegandone il funzionamento perché mi ha sempre interessato capire il meccanismo di questi speciali tipi di macchine fotografiche.<br><br>
+					Nonostante non sia un esperto di fotografia e non abbia mai approfondito le tecniche per fare un buon scatto, ho comunque deciso di cimentarmi nello studio del funzionamento di base dietro a queste nuove e sorprendenti tecnologie.
+					Per quanti diversi tipi ne esistano, ho ristretto la cerchia a quelle che reputavo più interessanti o comunque più utilizzate nell'uso "quotidiano".<br><br>
+					In qualsiasi ambito le fotocamere sono diventate uno strumento quasi fondamentale che, per hobby o per lavoro, sono utilizzate per molteplici scopi in svariati settori, come ho illustrato nella pagina principale.<br>
+					Per ogni fotocamera presentata ne ho descritto il principale ambito di utilizzo, il modo in cui essa opera e allegato immagini o video dimostrativi relativi alla spiegazione.
 				    </p>
                                 </div>
                             </div>
