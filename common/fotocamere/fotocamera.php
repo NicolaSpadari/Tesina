@@ -55,10 +55,10 @@
                                         <div class="col s12 m12">
                                             <div class="card">
                                                 <div class="card-image">
-                                                    <img src="/images/steve-sasson.jpg">
+                                                    <img src="/images/steven-sasson.jpg">
                                                 </div>
                                                 <div class="card-content">
-                                                    <h5>Steve Sasson</h5>
+                                                    <h5>Steven Sasson</h5>
                                                 </div>
                                             </div>
                                         </div>
