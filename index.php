@@ -135,9 +135,14 @@
 			echo "<div class='btn-center'>";
 			echo "<a href='materie.php' class='btn-large waves-effect waves-light goto-start'>MATERIE</a>";
 			echo "</div>";
+		    }else{
+			echo "<br><div class='divider'></div><br>";
+			echo "<div class='btn-center'>";
+			echo "<a id='fake-disabled' class='btn-large tooltipped' data-position='top' data-delay='100' data-tooltip='Non sei un amministratore'>MATERIE</a>";
+			echo "</div>";
 		    }
 		}
-	    ?>	    
+	    ?>    
         </main>
         <?php include("common/component/top-button.html"); ?>
     </body>
