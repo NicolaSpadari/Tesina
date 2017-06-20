@@ -26,7 +26,9 @@
                     <ul class="tabs tabs-fixed-width z-depth-1">
                         <li class="tab col s3"><a id="materia" class="active" href="#informatica">Informatica</a></li>
                         <li class="tab col s3"><a id="materia" href="#inglese">Inglese</a></li>
-                        <li class="tab col s3"><a id="materia" href="#tpsit">Tpsit</a></li>
+                        <li class="tab col s3"><a id="materia" href="#italiano">Italiano</a></li>
+                        <li class="tab col s3"><a id="materia" href="#storia">Storia</a></li>
+                        <li class="tab col s3"><a id="materia" href="#gestione">Gestione progetto</a></li>
                         <li class="tab col s3"><a id="materia" href="#sistemi">Sistemi</a></li>
                     </ul>
                 </div>
@@ -34,31 +36,45 @@
             <div id="informatica" class="col s12">
                 <?php
                     $path = $_SERVER['DOCUMENT_ROOT'];
-                    $path .= "/common/materie/informatica.php";
+                    $path .= "/common/materie/informatica.html";
                     include_once($path);
                 ?>
             </div>
             <div id="inglese" class="col s12">
                 <?php
                     $path = $_SERVER['DOCUMENT_ROOT'];
-                    $path .= "/common/materie/inglese.php";
+                    $path .= "/common/materie/inglese.html";
                     include_once($path);
                 ?>
             </div>
-            <div id="tpsit" class="col s12">
+            <div id="italiano" class="col s12">
                 <?php
                     $path = $_SERVER['DOCUMENT_ROOT'];
-                    $path .= "/common/materie/tpsit.php";
+                    $path .= "/common/materie/italiano.html";
+                    include_once($path);
+                ?>
+            </div>
+            <div id="storia" class="col s12">
+                <?php
+                    $path = $_SERVER['DOCUMENT_ROOT'];
+                    $path .= "/common/materie/storia.html";
+                    include_once($path);
+                ?>
+            </div>
+            <div id="gestione" class="col s12">
+                <?php
+                    $path = $_SERVER['DOCUMENT_ROOT'];
+                    $path .= "/common/materie/gestione.html";
                     include_once($path);
                 ?>
             </div>
             <div id="sistemi" class="col s12">
                 <?php
                     $path = $_SERVER['DOCUMENT_ROOT'];
-                    $path .= "/common/materie/sistemi.php";
+                    $path .= "/common/materie/sistemi.html";
                     include_once($path);
                 ?>
-            </div>
+            </div>	    
         </main>
     </body>
     <?php include("common/component/footer.html"); ?>
