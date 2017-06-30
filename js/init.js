@@ -11,6 +11,8 @@ $(document).ready(function () {
     $('.slider').slider();
     /*SCROLLTOP*/
     $('body').materialScrollTop();
+    /*CROLLSPY*/
+    $('.scrollspy').scrollSpy({scrollOffset: 30});
     /*FULLSCREEN CAROUSEL*/
     $('.carousel.carousel-slider').carousel({fullWidth: true});
     /*CAROUSEL*/
