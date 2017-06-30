@@ -4,7 +4,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
         <title>Tesina - Termica</title>
-        
+
         <!--CSS-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="../../css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -12,12 +12,12 @@
         <link rel="shortcut icon" type="image/png" sizes="16x16" href="../../images/favicon.png"/>
     </head>
     <?php
-        session_start();
-        if(isset($_SESSION['usernameLog'])){
-            include("../component/headerLog.php");
-        }else{
-            include("../component/header.php");
-        }
+    session_start();
+    if (isset($_SESSION['usernameLog'])) {
+	include("../component/headerLog.php");
+    } else {
+	include("../component/header.php");
+    }
     ?>
     <body class="body-index">
         <main>
@@ -37,7 +37,7 @@
                         <div class="row blocks">
                             <div class="col s12 m12">
                                 <div class="icon-block">
-                                    <p class="light" style="text-align: center">
+                                    <p class="light center">
                                         La termocamera è una particolare telecamera capace di ottenere immagini o riprese termografiche tramite radiazione infrarossa.<br>
                                         A partire dalla radiazione rilevata si ottengono delle mappe di temperatura delle superfici, in grado di rilevare veriazioni di temperature anche minime.<br>
                                         Le termocamere principali si chiamano radiometriche, e consentono di misurare il valore di temperatura assoluto di ogni punto dell'immagine.<br>
@@ -57,7 +57,7 @@
                         <div class="row blocks">
                             <div class="col s12 m12">
                                 <div class="icon-block">
-                                    <p class="light" style="text-align: center">
+                                    <p class="light center">
                                         Le termocamere rilevano le radiazioni nel campo dell'infrarosso dello spettro elettromagnetico e compiono misure in base all'emissione di queste radiazioni.<br>
                                         Questo strumento è in rileva le temperature in base all'intensità di radiazione emessa; tutti gli oggetti ad una temperatura superiore allo zero assoluto emettono radiazioni nel campo dell'infrarosso.<br>
                                         La vera utilità sta nella visione immediata di possibili surriscaldamenti (ad esempio a macchinari), che consente di intervenire mentre sono in funzione e prima che si verifichino guasti.
@@ -159,10 +159,10 @@
                 </div>
             </div>
         </main>
-        <?php
-		$path = $_SERVER['DOCUMENT_ROOT'];
-		$path .= "/common/component/top-button.html";
-		include_once($path);
+	<?php
+	$path = $_SERVER['DOCUMENT_ROOT'];
+	$path .= "/common/component/top-button.html";
+	include_once($path);
 	?>
     </body>
     <?php include("../component/footer.html"); ?>
