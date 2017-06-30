@@ -78,11 +78,11 @@ function creaRiga($nome, $cognome, $username) {
                 </div>
             </div>
         </main>
-        <div id="btt" class="fixed-action-btn" style="bottom: 45px; right: 24px;">
-            <a class="btn-floating btn-large teal lighten-2 waves-effect waves-light">
-                <i class="material-icons">keyboard_arrow_up</i>
-            </a>
-        </div>
+        <?php
+        $path = $_SERVER['DOCUMENT_ROOT'];
+        $path .= "/common/component/top-button.html";
+        include_once($path);
+        ?>
     </body>
     <?php include("common/component/footer.html"); ?>
     <!--Script-->
