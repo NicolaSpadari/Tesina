@@ -4,7 +4,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
         <title>Tesina - Aria</title>
-        
+
         <!--CSS-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="../../css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -12,12 +12,12 @@
         <link rel="shortcut icon" type="image/png" sizes="16x16" href="../../images/favicon.png"/>
     </head>
     <?php
-        session_start();
-        if(isset($_SESSION['usernameLog'])){
-            include("../component/headerLog.php");
-        }else{
-            include("../component/header.php");
-        }
+    session_start();
+    if (isset($_SESSION['usernameLog'])) {
+	include("../component/headerLog.php");
+    } else {
+	include("../component/header.php");
+    }
     ?>
     <body class="body-index">
         <main>
@@ -37,7 +37,7 @@
                         <div class="row blocks">
                             <div class="col s12 m12">
                                 <div class="icon-block">
-                                    <p class="light" style="text-align: center">
+                                    <p class="light center">
                                         Inventato nel 1864, il metodo Schlieren (o strioscopia) è una tecnica che permette di vedere turbolenze prodotte nell'aria o in altri fluidi quando vengono compressi dal passaggio di un solido.<br>
                                         I fluidi compressi modificano la loro densità e quindi anche le proprietà ottiche (indice di rifrazione), ossia il modo in cui si lasciano attraversare dalla luce.<br>
                                         Anche una fonte di calore comporta delle modifiche alla densità del fluido in cui si trova (ad esempio l'aria), ed è per questo motivo che la superficie di oggetti molto caldi (come l'asfalto o la sabbia rovente) sembra deformarsi.<br>
@@ -54,7 +54,7 @@
                         <div class="row blocks">
                             <div class="col s12 m12">
                                 <div class="icon-block">
-                                    <p class="light" style="text-align: center">
+                                    <p class="light center">
                                         Il funzionamento del metodo consiste nel rimpicciolire in un'immagine tramite delle lenti la luce non deviata dal fluido, 
                                         cioè i raggi luminosi che arrivano all'occhio in modo continuo. Verranno invece messi in evidenza maggiormente i raggi deviati dal fluido che arriveranno alla fotocamera
                                         che hanno subito una variazione.
@@ -71,7 +71,7 @@
                                         <div class="col s12 m12">
                                             <div class="card">
                                                 <div class="card-content">
-                                                    <h5 class="card-title activator grey-text text-darken-4" style="text-align: center">Gas</h5>
+                                                    <h5 class="card-title activator grey-text text-darken-4 center">Gas</h5>
                                                 </div>
                                                 <div class="card-image">
                                                     <img src="/images/ombra-1.jpg">
@@ -92,7 +92,7 @@
                                         <div class="col s12 m12">
                                             <div class="card">
                                                 <div class="card-content">
-                                                    <h5 class="card-title activator grey-text text-darken-4" style="text-align: center">Proiettile</h5>
+                                                    <h5 class="card-title activator grey-text text-darken-4 center">Proiettile</h5>
                                                 </div>
                                                 <div class="card-image">
                                                     <img src="/images/ombra-2.jpg">
@@ -117,7 +117,7 @@
                                         <div class="col s12 m12">
                                             <div class="card">
                                                 <div class="card-content">
-                                                    <h5 class="card-title activator grey-text text-darken-4" style="text-align: center">Respiro</h5>
+                                                    <h5 class="card-title activator grey-text text-darken-4 center">Respiro</h5>
                                                 </div>
                                                 <div class="card-image">
                                                     <img src="/images/ombra-3.jpg">
@@ -138,7 +138,7 @@
                                         <div class="col s12 m12">
                                             <div class="card">
                                                 <div class="card-content">
-                                                    <h5 class="card-title activator grey-text text-darken-4" style="text-align: center">Onda d'urto</h5>
+                                                    <h5 class="card-title activator grey-text text-darken-4 center">Onda d'urto</h5>
                                                 </div>
                                                 <div class="card-image">
                                                     <img src="/images/ombra-4.jpg">
@@ -176,11 +176,11 @@
                 </div>
             </div>
         </main>
-        <?php
-			$path = $_SERVER['DOCUMENT_ROOT'];
-			$path .= "/common/component/top-button.html";
-			include_once($path);
-		?>
+	<?php
+	$path = $_SERVER['DOCUMENT_ROOT'];
+	$path .= "/common/component/top-button.html";
+	include_once($path);
+	?>
     </body>
     <?php include("../component/footer.html"); ?>
     <!--Script-->
