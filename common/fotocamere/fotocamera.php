@@ -37,7 +37,7 @@
                         <div class="row blocks">
                             <div class="col s12 m12">
                                 <div class="icon-block">
-                                    <p class="light" style="text-align: center">
+                                    <p class="light center">
                                         Nel 1975 Steven Sasson, un ricercatore della Kodak, lavora ad un'invenzione rivoluzionaria: la prima fotocamera digitale.<br>
 					Il suo prototipo iniziale aveva una risoluzione di 0,01 megapixel e catturò la prima immagine in bianco e nero in 23 secondi per registrare poi i dati su una cassetta.
 					Ci vollero alcuni anni di studi e ricerche affinché la qualità dell'immagine divenisse accettabile.<br>
