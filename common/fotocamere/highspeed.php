@@ -4,7 +4,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
         <title>Tesina - Alta velocità</title>
-        
+
         <!--CSS-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="../../css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -12,12 +12,12 @@
         <link rel="shortcut icon" type="image/png" sizes="16x16" href="../../images/favicon.png"/>
     </head>
     <?php
-        session_start();
-        if(isset($_SESSION['usernameLog'])){
-            include("../component/headerLog.php");
-        }else{
-            include("../component/header.php");
-        }
+    session_start();
+    if (isset($_SESSION['usernameLog'])) {
+	include("../component/headerLog.php");
+    } else {
+	include("../component/header.php");
+    }
     ?>
     <body class="body-index">
         <main>
@@ -37,7 +37,7 @@
                         <div class="row blocks">
                             <div class="col s12 m12">
                                 <div class="icon-block">
-                                    <p class="light" style="text-align: center">
+                                    <p class="light center">
                                         È un dispositivo capace di eseguire scatti superiori ai 250 fotogrammi al secondo, ed è utilizzato per la registrazione di oggetti in rapidissimo movimento.<br>
                                         Dopo la registrazione le immagini memorizzate possono essere riprodotte in slow-motion.<br>
                                         Possiamo trovare tre diversi tipi di videocamere rapide:
@@ -54,7 +54,7 @@
                                         <div class="col s12 m12">
                                             <div class="card">
                                                 <div class="card-content">
-                                                    <h5 class="card-title activator grey-text text-darken-4" style="text-align: center">Ad alta velocità</h5>
+                                                    <h5 class="card-title activator grey-text text-darken-4 center">Ad alta velocità</h5>
                                                 </div>
                                                 <div class="card-image">
                                                     <img src="/images/highspeed.jpg">
@@ -77,7 +77,7 @@
                                         <div class="col s12 m12">
                                             <div class="card">
                                                 <div class="card-content">
-                                                    <h5 class="card-title activator grey-text text-darken-4" style="text-align: center">Autovelox</h5>
+                                                    <h5 class="card-title activator grey-text text-darken-4 center">Autovelox</h5>
                                                 </div>
                                                 <div class="card-image">
                                                     <img src="/images/autovelox.jpg">
@@ -101,7 +101,7 @@
                                         <div class="col s12 m12">
                                             <div class="card">
                                                 <div class="card-content">
-                                                    <h5 class="card-title activator grey-text text-darken-4" style="text-align: center">Rapatronic</h5>
+                                                    <h5 class="card-title activator grey-text text-darken-4 center">Rapatronic</h5>
                                                 </div>
                                                 <div class="card-image">
                                                     <img src="/images/rapatronic.jpg">
@@ -129,7 +129,7 @@
                         <div class="row blocks">
                             <div class="col s12 m12">
                                 <div class="icon-block">
-                                    <p class="light" style="text-align: center">
+                                    <p class="light center">
                                         Esiste anche un altro tipo di videocamere ultrarapide: le femtocamere.<br>
                                         Femtofotografia è un termine riferito alla cattura di immagini ad altissima velocità,
                                         in grado di catturare luce in tratti così brevi che percorre soltanto 6 mm (pari a pochi picosecondi, o migliaia di femtosecondi).<br>
@@ -147,7 +147,7 @@
                         <div class="row blocks">
                             <div class="col s12 m12">
                                 <div class="icon-block">
-                                    <p class="light" style="text-align: center">
+                                    <p class="light center">
                                         Il primo modello di autovelox comparve nel 1957.<br>
                                         Nato come attrezzatura destinata alle forze dell'ordine, in particolare alla Polizia Stradale, il nome è divenuto un sinonimo di "misuratore di velocità dei veicoli".
                                     </p>
@@ -215,11 +215,11 @@
                 </div>
             </div>
         </main>
-        <?php
-			$path = $_SERVER['DOCUMENT_ROOT'];
-			$path .= "/common/component/top-button.html";
-			include_once($path);
-		?>
+	<?php
+	$path = $_SERVER['DOCUMENT_ROOT'];
+	$path .= "/common/component/top-button.html";
+	include_once($path);
+	?>
     </body>
     <?php include("../component/footer.html"); ?>
     <!--Script-->
