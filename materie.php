@@ -29,7 +29,6 @@
                         <li class="tab col s3"><a id="materia" href="#italiano">Italiano</a></li>
                         <li class="tab col s3"><a id="materia" href="#storia">Storia</a></li>
                         <li class="tab col s3"><a id="materia" href="#gestione">Gestione progetto</a></li>
-                        <li class="tab col s3"><a id="materia" href="#sistemi">Sistemi</a></li>
                     </ul>
                 </div>
             </div>
@@ -67,14 +66,7 @@
                     $path .= "/common/materie/gestione.html";
                     include_once($path);
                 ?>
-            </div>
-            <div id="sistemi" class="col s12">
-                <?php
-                    $path = $_SERVER['DOCUMENT_ROOT'];
-                    $path .= "/common/materie/sistemi.html";
-                    include_once($path);
-                ?>
-            </div>	    
+            </div>    
         </main>
     </body>
     <?php include("common/component/footer.html"); ?>
