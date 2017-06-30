@@ -4,7 +4,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
         <title>Tesina - Plenottica</title>
-        
+
         <!--CSS-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="../../css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -12,12 +12,12 @@
         <link rel="shortcut icon" type="image/png" sizes="16x16" href="../../images/favicon.png"/>
     </head>
     <?php
-        session_start();
-        if(isset($_SESSION['usernameLog'])){
-            include("../component/headerLog.php");
-        }else{
-            include("../component/header.php");
-        }
+    session_start();
+    if (isset($_SESSION['usernameLog'])) {
+	include("../component/headerLog.php");
+    } else {
+	include("../component/header.php");
+    }
     ?>
     <body class="body-index">
         <main>
@@ -37,7 +37,7 @@
                         <div class="row blocks">
                             <div class="col s12 m12">
                                 <div class="icon-block">
-                                    <p class="light" style="text-align: center">
+                                    <p class="light center">
                                         La fotografia plenottica non cattura un solo flusso di luce, ma utilizza una matrice di microlenti per catturare la propagazione della luce nell'ambiente.<br>
                                         In questo modo il sensore non viene colpito da un solo fascio, ma viene “bombardato” da tanti fasci di luce provenienti da differenti prospettive.<br>
                                         Il prodotto finale non è un’immagine bidimensionale ma un campo luminoso in 4D. Andando ad agire in post-produzione su questo campo luminoso quadridimensionale si riusciranno ad apportare modifiche di ogni genere.
@@ -54,7 +54,7 @@
                         <div class="row blocks">
                             <div class="col s12 m12">
                                 <div class="icon-block">
-                                    <p class="light" style="text-align: center">
+                                    <p class="light center">
                                         Una fotocamera plenottica sfrutta il funzionamento del cosiddetto "light field", ovvero l'intero campo luminoso dove la luce si muove in ogni direzione in ciascun punto dello spazio.<br>
                                         Raccogliendo una quantità così sostanziosa di informazioni è in grado di generare un immagine in quattro dimensioni, che una volta inserita in un apposito software<br>
                                         sarà in grado di regolare la messa a fuoco su una fotografia già scattata.<br>
@@ -72,7 +72,7 @@
                                         <div class="col s12 m12">
                                             <div class="card">
                                                 <div class="card-content">
-                                                    <h5 class="card-title activator grey-text text-darken-4" style="text-align: center">La fotocamera</h5>
+                                                    <h5 class="card-title activator grey-text text-darken-4 center">La fotocamera</h5>
                                                 </div>
                                                 <div class="card-image">
                                                     <img src="/images/plenottica-1.jpg">
@@ -93,7 +93,7 @@
                                         <div class="col s12 m12">
                                             <div class="card">
                                                 <div class="card-content">
-                                                    <h5 class="card-title activator grey-text text-darken-4" style="text-align: center">Interno</h5>
+                                                    <h5 class="card-title activator grey-text text-darken-4 center">Interno</h5>
                                                 </div>
                                                 <div class="card-image">
                                                     <img class="materialboxed" data-caption="La lente centrale è una matrice formata da microlenti" src="/images/plenottica-2.jpg">
@@ -118,7 +118,7 @@
                                         <div class="col s12 m12">
                                             <div class="card">
                                                 <div class="card-content">
-                                                    <h5 class="card-title activator grey-text text-darken-4" style="text-align: center">Foto plenottica fase 1</h5>
+                                                    <h5 class="card-title activator grey-text text-darken-4 center">Foto plenottica fase 1</h5>
                                                 </div>
                                                 <div class="card-image">
                                                     <img src="/images/plenottica-3.jpg">
@@ -139,7 +139,7 @@
                                         <div class="col s12 m12">
                                             <div class="card">
                                                 <div class="card-content">
-                                                    <h5 class="card-title activator grey-text text-darken-4" style="text-align: center">Foto plenottica fase 2</h5>
+                                                    <h5 class="card-title activator grey-text text-darken-4 center">Foto plenottica fase 2</h5>
                                                 </div>
                                                 <div class="card-image">
                                                     <img src="/images/plenottica-4.jpg">
@@ -159,10 +159,10 @@
                 </div>
             </div>
         </main>
-        <?php
-		$path = $_SERVER['DOCUMENT_ROOT'];
-		$path .= "/common/component/top-button.html";
-		include_once($path);
+	<?php
+	$path = $_SERVER['DOCUMENT_ROOT'];
+	$path .= "/common/component/top-button.html";
+	include_once($path);
 	?>
     </body>
     <?php include("../component/footer.html"); ?>
