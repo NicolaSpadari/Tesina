@@ -144,7 +144,11 @@
 		}
 	    ?>    
         </main>
-        <?php include("common/component/top-button.html"); ?>
+        <?php
+	$path = $_SERVER['DOCUMENT_ROOT'];
+	$path .= "/common/component/top-button.html";
+	include_once($path);
+	?>
     </body>
     <?php include("common/component/footer.html"); ?>
     <!--Script-->
