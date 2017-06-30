@@ -27,7 +27,7 @@
 			<div class="row blocks">
                             <div class="col s12 m12">
                                 <div id="premessa" class="icon-block">
-                                    <p class="light" style="text-align: center">
+                                    <p class="light center">
                                         Nella mia tesina ho deciso di proporre il tema delle fotocamere particolari spiegandone il funzionamento perché mi ha sempre interessato capire il meccanismo di questi speciali tipi di macchine fotografiche.<br><br>
 					Nonostante non sia un esperto di fotografia e non abbia mai approfondito le tecniche per fare un buon scatto, ho comunque deciso di cimentarmi nello studio del funzionamento di base dietro a queste nuove e sorprendenti tecnologie.
 					Per quanti diversi tipi ne esistano, ho ristretto la cerchia a quelle che reputavo più interessanti o comunque più utilizzate nell'uso "quotidiano".<br><br>
