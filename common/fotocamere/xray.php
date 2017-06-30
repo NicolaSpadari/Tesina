@@ -4,7 +4,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
         <title>Tesina - Raggi-X</title>
-        
+
         <!--CSS-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="../../css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -12,12 +12,12 @@
         <link rel="shortcut icon" type="image/png" sizes="16x16" href="../../images/favicon.png"/>
     </head>
     <?php
-        session_start();
-        if(isset($_SESSION['usernameLog'])){
-            include("../component/headerLog.php");
-        }else{
-            include("../component/header.php");
-        }
+    session_start();
+    if (isset($_SESSION['usernameLog'])) {
+	include("../component/headerLog.php");
+    } else {
+	include("../component/header.php");
+    }
     ?>
     <body class="body-index">
         <main>
@@ -37,7 +37,7 @@
                         <div class="row blocks">
                             <div class="col s12 m12">
                                 <div class="icon-block">
-                                    <p class="light" style="text-align: center">
+                                    <p class="light center">
                                         I raggi X sono un tipo di luce con una lunghezza d'onda molto bassa che penetra la maggior parte dei tessuti.<br>
                                         A seconda dell'intensità vengono assorbiti dai materiali (ossa comprese) e possono essere poi registrati da una pellicola fotografica.<br>
                                         I raggi X hanno un potere di penetrazione molto elevato: solo spessori di centimetri di piombo o di decine di centimetri di calcestruzzo possono fermarli.
@@ -54,7 +54,7 @@
                         <div class="row blocks">
                             <div class="col s12 m12">
                                 <div class="icon-block">
-                                    <p class="light" style="text-align: center">
+                                    <p class="light center">
                                         Nel 1892 Heinrich Hertz dimostrò che i raggi catodici potevano passare attraverso fogli di metallo molto sottile.
                                         Philip Lenard, uno studente di Hertz, continuò ad investigare, sviluppò una nuova versione del tubo catodico e studiò la penetrazione dei raggi X attraverso vari metalli,
                                         senza sapere che la radiazione che stava producendo era qualcosa di non ancora scoperto;<br>
@@ -73,7 +73,7 @@
                                         <div class="col s12 m12">
                                             <div class="card">
                                                 <div class="card-content">
-                                                    <h5 class="card-title activator grey-text text-darken-4" style="text-align: center">Radiografia</h5>
+                                                    <h5 class="card-title activator grey-text text-darken-4 center">Radiografia</h5>
                                                 </div>
                                                 <div class="card-image">
                                                     <img src="/images/xray-1.jpg">
@@ -94,7 +94,7 @@
                                         <div class="col s12 m12">
                                             <div class="card">
                                                 <div class="card-content">
-                                                    <h5 class="card-title activator grey-text text-darken-4" style="text-align: center">Scanner</h5>
+                                                    <h5 class="card-title activator grey-text text-darken-4 center">Scanner</h5>
                                                 </div>
                                                 <div class="card-image">
                                                     <img src="/images/xray-2.jpg">
@@ -115,7 +115,7 @@
                                         <div class="col s12 m12">
                                             <div class="card">
                                                 <div class="card-content">
-                                                    <h5 class="card-title activator grey-text text-darken-4" style="text-align: center">Fotocamera</h5>
+                                                    <h5 class="card-title activator grey-text text-darken-4 center">Fotocamera</h5>
                                                 </div>
                                                 <div class="card-image">
                                                     <img src="/images/xray-3.jpg">
@@ -153,7 +153,7 @@
                         <div class="row blocks">
                             <div class="col s12 m12">
                                 <div class="icon-block">
-                                    <p class="light" style="text-align: center">
+                                    <p class="light center">
                                         Il catodo viene riscaldato da corrente ed inizia ad emettere elettroni; la nube di elettroni viene accelerata dall'alta tensione,<br>
                                         che proietta gli elettroni verso l'anodo dove colpiscono il disco metallico: nell'impatto l'energia si trasforma in calore (per il 99%) e in radiazione X (per l'1%).<br>
                                         Nei tubi moderni il disco metallico è rotante per evitare che colpendo sempre lo stesso punto danneggino l'elettrodo; inoltre ne migliora la nitidezza d'immagine e aiuta a disperdere il calore più velocemente.
@@ -170,7 +170,7 @@
                         <div class="row blocks">
                             <div class="col s12 m12">
                                 <div class="icon-block">
-                                    <p class="light" style="text-align: center">
+                                    <p class="light center">
                                         Le radiazioni utilizzate in radiologia ed in medicina nucleare sono potenzialmente nocive per qualsiasi organismo perchè hanno effetti negativi sulla materia biologica.<br>
                                         L'impiego dei raggi X prevede l'uso di basse dosi di radiazioni; a livelli bassi il rischio di danno non è legato alla dose utilizzata ma è alla probabilità.<br>
                                         Quindi l'esposizione a raggi X determina una probabilità del rischio di patologie, ma non è sempre verificato.
@@ -182,11 +182,11 @@
                 </div>
             </div>
         </main>
-        <?php
-			$path = $_SERVER['DOCUMENT_ROOT'];
-			$path .= "/common/component/top-button.html";
-			include_once($path);
-		?>
+	<?php
+	$path = $_SERVER['DOCUMENT_ROOT'];
+	$path .= "/common/component/top-button.html";
+	include_once($path);
+	?>
     </body>
     <?php include("../component/footer.html"); ?>
     <!--Script-->
