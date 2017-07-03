@@ -112,7 +112,7 @@ function registrazione($username, $nome, $cognome, $email, $password, $sesso) {
         <div class="modal-content">
             <h4>Registrati  <i class="material-icons">person_add</i></h4>
             <div class="row">
-                <form id="registrazione" class="col s12" name="modulo" action="#" method="post">
+                <form id="registrazione" class="col s12" name="modulo" action="#" method="post" onsubmit="return checkReg();">
                     <div class="row">
                         <div class="input-field col s4">
                             <input id="first_name" name="nome" type="text" class="validate">
@@ -162,21 +162,30 @@ function registrazione($username, $nome, $cognome, $email, $password, $sesso) {
     <?php
     global $username;
     if (isset($_REQUEST["invioReg"])) {
-	$_SESSION['nome'] = $nome = $_REQUEST["nome"];
-	$_SESSION['cognome'] = $cognome = $_REQUEST["cognome"];
-	$_SESSION['username'] = $username = $_REQUEST["username"];
-	$_SESSION['email'] = $email = $_REQUEST["email"];
-	$_SESSION['sesso'] = $sesso = $_REQUEST["sesso"];
-	$password = md5($_REQUEST["password"]);
-	$rPassword = md5($_REQUEST["rPassword"]);
+	if ($_REQUEST["nome"] == '' ||
+		$_REQUEST["cognome"] == '' ||
+		$_REQUEST["username"] == '' ||
+		$_REQUEST["email"] == '' ||
+		$_REQUEST["password"] == '' ||
+		$_REQUEST["rPassword"] == '') {
+	    echo "<script> alert('Dati mancanti'); </script>";
+	} else {
+	    $_SESSION['nome'] = $nome = $_REQUEST["nome"];
+	    $_SESSION['cognome'] = $cognome = $_REQUEST["cognome"];
+	    $_SESSION['username'] = $username = $_REQUEST["username"];
+	    $_SESSION['email'] = $email = $_REQUEST["email"];
+	    $_SESSION['sesso'] = $sesso = $_REQUEST["sesso"];
+	    $password = md5($_REQUEST["password"]);
+	    $rPassword = md5($_REQUEST["rPassword"]);
 
-	if ($password == $rPassword) {
-	    $_SESSION['password'] = $password;
-	    include("connect.php");
-	    connessione();
-	    registrazione($username, $nome, $cognome, $email, $password, $sesso);
-	}else{
-	    echo "<script> alert('Le password non coincidono'); </script>";
+	    if ($password == $rPassword) {
+		$_SESSION['password'] = $password;
+		include("connect.php");
+		connessione();
+		registrazione($username, $nome, $cognome, $email, $password, $sesso);
+	    } else {
+		echo "<script> alert('Le password non coincidono'); </script>";
+	    }
 	}
     }
     ?>
