@@ -70,6 +70,7 @@
                         <div class="row blocks">
                             <div class="col s12 m6">
                                 <div class="icon-block">
+				    <h2 class="center light-blue-text"><i class="material-icons fotocamere">equalizer</i></h2>
                                     <h5 class="center">Campo spettrale</h5>
                                     <p class="light">
                                         Un campo ha uno di questi valori: VIR, SW, MW, LW, LXW.<br>
@@ -80,6 +81,7 @@
                             </div>
                             <div class="col s12 m6">
                                 <div class="icon-block">
+				    <h2 class="center light-blue-text"><i class="material-icons fotocamere">surround_sound</i></h2>
                                     <h5 class="center">Tipo di sensore</h5>
                                     <p class="light">
                                         Il tipo di sensore influenza direttamente tutte le caratteristiche della termocamera.<br>
@@ -95,6 +97,7 @@
                         <div class="row blocks">
                             <div class="col s12 m6">
                                 <div class="icon-block">
+				    <h2 class="center light-blue-text"><i class="material-icons fotocamere">grid_on</i></h2>
                                     <h5 class="center">Risoluzione geometrica</h5>
                                     <p class="light">
                                         Anche le termocamere hanno una risoluzione che influenza la qualità della foto. Esistono le seguenti risoluzioni:<br>
@@ -107,6 +110,7 @@
                             </div>
                             <div class="col s12 m6">
                                 <div class="icon-block">
+				    <h2 class="center light-blue-text"><i class="material-icons fotocamere">graphic_eq</i></h2>
                                     <h5 class="center">Frequenza di acquisizione</h5>
                                     <p class="light">
                                         La frequenza è fondamentale: se si cerca di misurare la temperatura di un oggetto in movimento (o durante la ripresa viene mossa la termocamera)<br>
