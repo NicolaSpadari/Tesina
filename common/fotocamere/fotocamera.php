@@ -215,6 +215,35 @@
                             </div>
                         </div>
                     </div>
+		    <br><br><div class="divider"></div><br><br>
+		    <div class="row">
+                        <h3 id="titolo" class="col s12 light center header">Dual camera</h3>
+                    </div>
+                    <div class="row">
+                        <div class="row blocks">
+                            <div class="col s12 m12">
+                                <div class="icon-block">
+                                    <p class="light center">
+                                        Già oggi sono presenti in molti smartphone le doppie fotocamere: ma come funzionano esattamente?<br>
+					Mentre con una singola fotocamera digitale tutti i colori recepiti vengono proiettati sul sensore, una doppia fotocamera lavora come la vista umana,
+					catturando immagini tridimensionali dello spazio attorno (fotografia stereoscopica) ed elaborando i risultati in un'unica immagine dai dettagli
+					molto più evidenti e ben definiti.<br>
+					Solitamente una delle due fotocamere scatta in monocromatico (solo bianco e nero), e l'insieme delle due garantisce un miglior zoom.<br><br>
+				    </p>
+				    <p class='light'>
+					I vantaggi delle doppie fotocamere sono:<br><br>
+					- Miglior profondità di campo nelle foto;<br>
+					- Messa a fuoco più rapida;<br>
+					- Scelta della messa a fuoco dopo lo scatto;<br>
+					- Qualità dell'immagine aumentata di molto.
+				    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+		    <div class="row">
+			<img class="materialboxed" width="500" src="/images/dual-camera.jpg" style="margin: 0 auto">
+		    </div>
                 </div>
             </div>
         </main>
