@@ -92,7 +92,7 @@ main{
 }
 #pdf-pc{
     width: 60%; 
-    margin: 0 auto;
+    float: left;
 }
 #pdf-phone{
     width: 100%; 
@@ -109,6 +109,15 @@ main{
 }
 .div-right-forward{
     margin-left: 1%;
+}
+.pdf-avanti, .pdf-indietro{
+    float: left;
+    width: 20%;
+    text-align: center;
+    margin-top: 15%;
+}
+#container-pdf{
+    width: 100%;
 }
 
 /*LINE ANIMATION*/
