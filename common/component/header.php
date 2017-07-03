@@ -30,7 +30,7 @@ function registrazione($username, $nome, $cognome, $email, $password, $sesso) {
     $result = mysqli_query($connetti, "INSERT INTO credenziali(NomeUtente, Nome, Cognome, Email, Password, Sesso) VALUES('$username', '$nome', '$cognome', '$email', '$password', '$sesso')");
 
     if (!$result) {
-	echo "Registrazione fallita";
+	echo "<script> alert('Registrazione fallita'); </script>";
     }
 
     mysqli_close($connetti);
@@ -134,11 +134,15 @@ function registrazione($username, $nome, $cognome, $email, $password, $sesso) {
                         </div>
                     </div>
                     <div class="row">
-                        <div class="input-field col s9">
+                        <div class="input-field col s4">
                             <input id="password" name="password" type="password" class="validate">
                             <label for="password">Password</label>
                         </div>
-                        <div class="input-field col s3">
+                        <div class="input-field col s4">
+                            <input id="rPassword" name="rPassword" type="password" class="validate">
+                            <label for="rPassword">Ripeti password</label>
+                        </div>
+                        <div class="input-field col s4">
                             <select name="sesso">
                                 <option value="M" selected>Maschio</option>
                                 <option value="F">Femmina</option>
@@ -162,11 +166,18 @@ function registrazione($username, $nome, $cognome, $email, $password, $sesso) {
 	$_SESSION['cognome'] = $cognome = $_REQUEST["cognome"];
 	$_SESSION['username'] = $username = $_REQUEST["username"];
 	$_SESSION['email'] = $email = $_REQUEST["email"];
-	$_SESSION['password'] = $password = md5($_REQUEST["password"]);
 	$_SESSION['sesso'] = $sesso = $_REQUEST["sesso"];
-	include("connect.php");
-	connessione();
-	registrazione($username, $nome, $cognome, $email, $password, $sesso);
+	$password = md5($_REQUEST["password"]);
+	$rPassword = md5($_REQUEST["rPassword"]);
+
+	if ($password == $rPassword) {
+	    $_SESSION['password'] = $password;
+	    include("connect.php");
+	    connessione();
+	    registrazione($username, $nome, $cognome, $email, $password, $sesso);
+	}else{
+	    echo "<script> alert('Le password non coincidono'); </script>";
+	}
     }
     ?>
 </header>
