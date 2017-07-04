@@ -55,9 +55,9 @@
                             <div class="col s12 m12">
                                 <div class="icon-block">
                                     <p class="light center">
-                                        Nel 1892 Heinrich Hertz dimostrò che i raggi catodici potevano passare attraverso fogli di metallo molto sottile.
+                                        Nel 1892 Heinrich Hertz dimostrò che i raggi catodici potevano passare attraverso fogli di metallo molto sottile.<br>
                                         Philip Lenard, uno studente di Hertz, continuò ad investigare, sviluppò una nuova versione del tubo catodico e studiò la penetrazione dei raggi X attraverso vari metalli,
-                                        senza sapere che la radiazione che stava producendo era qualcosa di non ancora scoperto;<br>
+                                        senza sapere che la radiazione che stava producendo era qualcosa di non ancora scoperto;
                                         nel 1895 Röntgen, uno scienziato tedesco, iniziò a osservare i raggi X mentre sperimentava con i tubi a vuoto, uno dei quali era il modello avanzato costruito in precedenza da Lenard.<br>
                                         Röntgen scrisse un rapporto su "un nuovo tipo di raggi" che chiamò come "radiazione X" in quanto era ancora di tipo sconosciuto, ma rimase tale negli anni fino ad oggi.
                                     </p>
@@ -101,7 +101,7 @@
                                                 </div>
                                                 <div class="card-content">
                                                     <p class="card-title activator grey-text text-darken-4">
-                                                        Foto scattata da un macchinario degli aeroporti per il controllo dei bagagli.
+                                                        Foto di un macchinario degli aeroporti per il controllo bagagli.
                                                     </p>
                                                 </div>
                                             </div>
@@ -133,20 +133,7 @@
                         </div>
                     </div>
                     <br><br><div class="divider"></div><br><br>
-                    <div class="row">
-                        <h3 id="titolo" class="col s12 light center header">Funzionamento della fotocamera</h3>
-                    </div>
-                    <div class="row">
-                        <div class="row blocks">
-                            <div class="col s12 m8 offset-l2">
-                                <div class="video-container">
-                                    <iframe width="853" height="480" src="https://youtube.com/embed/pz6ns_U7Fno?start=7&end=20&vq=medium" frameborder="0"></iframe>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <br><br><div class="divider"></div><br><br>
-                    <div class="row">
+		    <div class="row">
                         <h3 id="titolo" class="col s12 light center header">Funzionamento</h3>
                     </div>
                     <div class="row">
@@ -164,6 +151,19 @@
                     </div>
                     <br><br><div class="divider"></div><br><br>
                     <div class="row">
+                        <h3 id="titolo" class="col s12 light center header">Interno della fotocamera</h3>
+                    </div>
+                    <div class="row">
+                        <div class="row blocks">
+                            <div class="col s12 m8 offset-l2">
+                                <div class="video-container">
+                                    <iframe width="853" height="480" src="https://youtube.com/embed/pz6ns_U7Fno?start=7&end=20&vq=medium" frameborder="0"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br><div class="divider"></div><br><br>                    
+                    <div class="row">
                         <h3 id="titolo" class="col s12 light center header">Problemi</h3>
                     </div>
                     <div class="row">
@@ -172,7 +172,7 @@
                                 <div class="icon-block">
                                     <p class="light center">
                                         Le radiazioni utilizzate in radiologia ed in medicina nucleare sono potenzialmente nocive per qualsiasi organismo perchè hanno effetti negativi sulla materia biologica.<br>
-                                        L'impiego dei raggi X prevede l'uso di basse dosi di radiazioni; a livelli bassi il rischio di danno non è legato alla dose utilizzata ma è alla probabilità.<br>
+                                        L'impiego dei raggi X prevede l'uso di basse dosi di radiazioni; a livelli bassi il rischio di danno è legato alla probabilità.
                                         Quindi l'esposizione a raggi X determina una probabilità del rischio di patologie, ma non è sempre verificato.
                                     </p>
                                 </div>
