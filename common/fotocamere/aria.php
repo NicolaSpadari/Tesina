@@ -99,7 +99,7 @@
                                                 </div>
                                                 <div class="card-content">
                                                     <p class="card-title activator grey-text text-darken-4">
-                                                        Onda d'urto generata da una pallottola che viaggia a velocità supersonica sparata da un fucile.
+                                                        Onda d'urto generata da una pallottola sparata a velocità supersonica.
                                                     </p>
                                                 </div>
                                             </div>
