@@ -93,11 +93,11 @@
                                 <div class="icon-block">
                                     <p class="light">
                                         Le parti fondamentali per una fotocamera sono:<br><br>
-                                        -Una lente o degli specchi, che concentrano la luce e la proiettano sul piano di immagine: ciò costituisce l'obiettivo;<br>
-                                        -Un otturatore meccanico o elettronico che controlla la durata del tempo di esposizione della pellicola, lastra o sensore di cattura;<br>
-                                        -Il diaframma che controlla l'ingresso della luce.<br><br>
+                                        - Una lente( o degli specchi) che concentrano la luce e la proiettano sul piano di immagine: ciò costituisce l'obiettivo;<br>
+                                        - Un otturatore meccanico o elettronico che controlla la durata del tempo di esposizione della pellicola, lastra o sensore di cattura;<br>
+                                        - Il diaframma che controlla l'ingresso della luce.<br><br>
                                         La prima apertura ha dimensioni stabilite dal diaframma ed è controllata dall'otturatore, mentre la parte relativa alla registrazione dell'immagine è costituita da un sensore fotosensibile;<br>
-                                        La pellicola e la lastra fotografica è usata nelle macchine fotografiche tradizionali, mentre il sensore digitale nelle fotocamere digitali.
+                                        Pellicola e lastra fotografica sono usate nelle macchine fotografiche analogiche tradizionali, mentre il sensore digitale nelle fotocamere digitali.
                                     </p>
                                 </div>
                             </div>
@@ -114,9 +114,10 @@
                                     <h2 class="center light-blue-text"><i class="material-icons fotocamere">camera</i></h2>
                                     <h5 class="center">Analogica</h5>
                                     <p class="light">
-                                        - L'immagine attraverso l'obiettivo viene proiettata sulla pellicola<br>
-                                        - La luce mette in atto delle trasformazioni chimiche, poi la pellicola viene sviluppata, cioè attraverso un prodotto chimico nelle le zone più illuminate dalla scena si accumulano più cristalli d'argento o pigmenti, mentre in quelle più buie, quelle dove la luce ha avuto minori effetti, i pigmenti o l'argento non si attaccano e vengono lavati via<br>
-                                        - Alla fine si mette la pellicola in un ingranditore e con un processo identico ma inverso la pellicola viene impressa sulla carta e si ottiene la stampa.
+                                        - L'immagine viene proiettata sulla pellicola attraverso l'obiettivo;<br>
+                                        - La luce mette in atto delle trasformazioni chimiche, poi la pellicola viene sviluppata attraverso un prodotto chimico facendo accumulare nelle le zone più illuminate più pigmenti, 
+					mentre in quelle più buie, quelle dove la luce ha avuto minori effetti, i pigmenti non si attaccano e vengono lavati via;<br>
+                                        - La pellicola viene messa in un ingranditore e con un processo simile viene impressa sulla carta ottenendo la stampa.
                                     </p>
                                 </div>
                             </div>
@@ -125,8 +126,8 @@
                                     <h2 class="center light-blue-text"><i class="material-icons fotocamere">camera_alt</i></h2>
                                     <h5 class="center">Digitale</h5>
                                     <p class="light">
-                                        - L'immagine viene proiettata su un sensore, composto da pixel affiancati sensibili ai tre colori blu, verde e rosso<br>
-                                        - Tutta l'immagine viene trasformata in numeri, dove in ogni pixel viene registrato un numero corrispondente alla luminosità della luce del suo colore<br>
+                                        - L'immagine viene proiettata su un sensore, composto da pixel sensibili ai tre colori: blu, verde e rosso;<br>
+                                        - Tutta l'immagine viene trasformata in numeri, e in ogni pixel viene registrato un numero corrispondente alla luminosità della luce del suo colore;<br>
                                         - Appositi programmi su computer ritrasformano i numeri in un immagine visibile su schermo.
                                     </p>
                                 </div>
@@ -163,11 +164,11 @@
                                             </tr>
                                             <tr>
                                                 <td>Dorso</td>
-                                                <td>Elemento mobile che può contenere la pellicola piana o la pellicola in rullo</td>
+                                                <td>Elemento mobile che contiene la pellicola</td>
                                             </tr>
                                             <tr>
                                                 <td>Pentaprisma</td>
-                                                <td>Elemento che permette di vedere l'immagine riflessa dallo specchio delle macchine fotografiche senza che risulti capovolta o invertita</td>
+                                                <td>Prisma a cinque facce che riflette l'immagine che guardiamo nell'obiettivo delle macchine fotografiche senza che risulti capovolta o invertita</td>
                                             </tr>
                                         </tbody>
                                     </table>
