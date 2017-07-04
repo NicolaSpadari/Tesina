@@ -54,7 +54,7 @@
                                         <div class="col s12 m12">
                                             <div class="card">
                                                 <div class="card-content">
-                                                    <h5 class="card-title activator grey-text text-darken-4 center">Ad alta velocità</h5>
+                                                    <h5 class="card-title activator light-blue-text text-darken-1 center">Ad alta velocità</h5>
                                                 </div>
                                                 <div class="card-image">
                                                     <img src="/images/highspeed.jpg">
@@ -77,7 +77,7 @@
                                         <div class="col s12 m12">
                                             <div class="card">
                                                 <div class="card-content">
-                                                    <h5 class="card-title activator grey-text text-darken-4 center">Autovelox</h5>
+                                                    <h5 class="card-title activator light-blue-text text-darken-1 center">Autovelox</h5>
                                                 </div>
                                                 <div class="card-image">
                                                     <img src="/images/autovelox.jpg">
@@ -101,7 +101,7 @@
                                         <div class="col s12 m12">
                                             <div class="card">
                                                 <div class="card-content">
-                                                    <h5 class="card-title activator grey-text text-darken-4 center">Rapatronic</h5>
+                                                    <h5 class="card-title activator light-blue-text text-darken-1 center">Rapatronic</h5>
                                                 </div>
                                                 <div class="card-image">
                                                     <img src="/images/rapatronic.jpg">
@@ -166,11 +166,11 @@
                                     <h2 class="center light-blue-text"><i class="material-icons fotocamere">settings_remote</i></h2>
                                     <h5 class="center">Fotocellula</h5>
                                     <p class="light">
-                                        Gli autovelox sono dotati di due cellule:<br>
-                                        il passaggio della testa di un veicolo attraverso il fascio della prima cellula fà partire un timer interrompendo il fascio,<br>
+                                        Sono dotati di due fotocellule:<br><br>
+                                        Il passaggio della testa di un veicolo attraverso il fascio della prima cellula fa partire un timer interrompendo il fascio,<br>
                                         mentre il passaggio attraverso il secondo fascio blocca il timer ottenendo un intervallo di tempi.<br>
                                         La velocità è calcolata in funzione del tempo impiegato ad attraversare i due fasci, una volta conosciuta la distanza tra le due cellule, con la formula<br>
-                                        V = S/T
+                                        <b>V = S/T</b>
                                     </p>
                                 </div>
                             </div>
