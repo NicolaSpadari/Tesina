@@ -43,7 +43,6 @@
                                         Le termocamere principali si chiamano radiometriche, e consentono di misurare il valore di temperatura assoluto di ogni punto dell'immagine.<br>
                                         L'immagine è costruita su una matrice di un certo numero di pixel per un certo numero di righe;
                                         l'elettronica dello strumento legge velocemente il valore di energia immagazzinata da ogni singolo pixel e genera un'immagine, in bianco e nero o in falsi colori, dell'oggetto osservato.<br>
-                                        Le caratteristiche che distinguono principalmente i diversi dispositivi sono:
                                     </p>
                                 </div>
                             </div>
@@ -60,7 +59,8 @@
                                     <p class="light center">
                                         Le termocamere rilevano le radiazioni nel campo dell'infrarosso dello spettro elettromagnetico e compiono misure in base all'emissione di queste radiazioni.<br>
                                         Questo strumento è in rileva le temperature in base all'intensità di radiazione emessa; tutti gli oggetti ad una temperatura superiore allo zero assoluto emettono radiazioni nel campo dell'infrarosso.<br>
-                                        La vera utilità sta nella visione immediata di possibili surriscaldamenti (ad esempio a macchinari), che consente di intervenire mentre sono in funzione e prima che si verifichino guasti.
+                                        La vera utilità sta nella visione immediata di possibili surriscaldamenti (ad esempio a macchinari), che consente di intervenire mentre sono in funzione e prima che si verifichino guasti.<br>
+					Le caratteristiche che distinguono queste fotocamere sono:
                                     </p>
                                 </div>
                             </div>
@@ -84,7 +84,6 @@
 				    <h2 class="center light-blue-text"><i class="material-icons fotocamere">surround_sound</i></h2>
                                     <h5 class="center">Tipo di sensore</h5>
                                     <p class="light">
-                                        Il tipo di sensore influenza direttamente tutte le caratteristiche della termocamera.<br>
                                         I sensori possono essere sia non raffreddati che raffreddati, con la differenza che quelli raffreddati, utilizzati in ricerca e sviluppo, 
                                         hanno sensibilità termica superiore rispetto a quelli non raffreddati.<br>
                                         Il materiale del sensore influenza la sensibilità termica; quelli più comuni sono in silicio amorfo o in ossido di vanadio.
@@ -100,11 +99,11 @@
 				    <h2 class="center light-blue-text"><i class="material-icons fotocamere">grid_on</i></h2>
                                     <h5 class="center">Risoluzione geometrica</h5>
                                     <p class="light">
-                                        Anche le termocamere hanno una risoluzione che influenza la qualità della foto. Esistono le seguenti risoluzioni:<br>
-                                        4 x 4 pixel: svolgono la stessa funzione di un termometro a irraggiamento però ottico<br>
-                                        Da 120x120 a 160x160 pixel: adatte a misure indicative nella manutenzione preventiva<br>
-                                        Da 240x240 a 324x324 pixel: per manutenzione e la maggior parte delle applicazioni<br>
-                                        Da 500x500 e superiori: termocamere alta risoluzione
+                                        Anche le termocamere hanno una risoluzione che influenza la qualità della foto. Esistono le seguenti risoluzioni:<br><br>
+                                        - <u>4 x 4</u> pixel: svolgono la stessa funzione di un termometro a irraggiamento però ottico;<br>
+                                        - Da <u>120x120 a 160x160</u> pixel: adatte a misure indicative nella manutenzione preventiva;<br>
+                                        - Da <u>240x240 a 324x324</u> pixel: per manutenzione e la maggior parte delle applicazioni;<br>
+                                        - Da <u>500x500 e superiori</u>: termocamere alta risoluzione.
                                     </p>
                                 </div>
                             </div>
@@ -113,11 +112,11 @@
 				    <h2 class="center light-blue-text"><i class="material-icons fotocamere">graphic_eq</i></h2>
                                     <h5 class="center">Frequenza di acquisizione</h5>
                                     <p class="light">
-                                        La frequenza è fondamentale: se si cerca di misurare la temperatura di un oggetto in movimento (o durante la ripresa viene mossa la termocamera)<br>
-                                        e lo strumento non ha una frequenza di acquisizione sufficiente, si ha un fenomeno detto "smearing" che impedisce di avere una misura di temperatura accurata.<br>
-                                        Per analisi statiche è sufficiente una frequenza di 33Hz<br>
-                                        Per analisi con brevi movimenti è necessaria una frequenza compresa tra 33 e 60Hz<br>
-                                        Per analisi in movimento la frequenza minima deve essere di 60Hz, fino ad un massimo di 2KHz
+                                        Se si cerca di misurare la temperatura di un oggetto in movimento (o di una ripresa mossa) e lo strumento non ha una frequenza di acquisizione sufficiente,
+					si ha un fenomeno detto "smearing" che impedisce di avere una misura di temperatura accurata.<br><br>
+                                        - Per analisi statiche è sufficiente una frequenza di 33Hz;<br>
+                                        - Per analisi con brevi movimenti è necessaria una frequenza compresa tra 33 e 60Hz;<br>
+                                        - Per analisi in movimento la frequenza minima deve essere di 60Hz, fino ad un massimo di 2KHz.
                                     </p>
                                 </div>
                             </div>
@@ -135,7 +134,7 @@
                                                     <img src="/images/termica-1.jpg">
                                                 </div>
                                                 <div class="card-content">
-                                                    <h5>Una casa che presenta zone calde e fredde</h5>
+                                                    <h5>Termocamera nella foresta (bianco e nero)</h5>
                                                 </div>
                                             </div>
                                         </div>
@@ -151,7 +150,7 @@
                                                     <img src="/images/termica-2.jpg">
                                                 </div>
                                                 <div class="card-content">
-                                                    <h5>Punti di diverse temperature sulle mani</h5>
+                                                    <h5>Temperature diverse sulle mani (colori)</h5>
                                                 </div>
                                             </div>
                                         </div>
