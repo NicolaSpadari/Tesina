@@ -72,7 +72,7 @@
                                         <div class="col s12 m12">
                                             <div class="card">
                                                 <div class="card-content">
-                                                    <h5 class="card-title activator grey-text text-darken-4 center">La fotocamera</h5>
+                                                    <h5 class="card-title grey-text text-darken-4 center">La fotocamera</h5>
                                                 </div>
                                                 <div class="card-image">
                                                     <img src="/images/plenottica-1.jpg">
@@ -93,7 +93,7 @@
                                         <div class="col s12 m12">
                                             <div class="card">
                                                 <div class="card-content">
-                                                    <h5 class="card-title activator grey-text text-darken-4 center">Interno</h5>
+                                                    <h5 class="card-title grey-text text-darken-4 center"><u>Interno</u></h5>
                                                 </div>
                                                 <div class="card-image">
                                                     <img class="materialboxed" data-caption="La lente centrale è una matrice formata da microlenti" src="/images/plenottica-2.jpg">
@@ -118,13 +118,13 @@
                                         <div class="col s12 m12">
                                             <div class="card">
                                                 <div class="card-content">
-                                                    <h5 class="card-title activator grey-text text-darken-4 center">Foto plenottica fase 1</h5>
+                                                    <h5 class="card-title grey-text text-darken-4 center">Foto plenottica fase 1</h5>
                                                 </div>
                                                 <div class="card-image">
                                                     <img src="/images/plenottica-3.jpg">
                                                 </div>
                                                 <div class="card-content">
-                                                    <p class="card-title activator grey-text text-darken-4">
+                                                    <p class="card-title grey-text text-darken-4">
                                                         Foto scattata e modificata con messa a fuoco lontana
                                                     </p>
                                                 </div>
