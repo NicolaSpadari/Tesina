@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="it">
     <head>
@@ -11,15 +12,14 @@
         <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link rel="shortcut icon" type="image/png" sizes="16x16" href="images/favicon.png"/>
     </head>
-    <?php
-        session_start();
+	<?php
         if(isset($_SESSION['usernameLog'])){
             include("common/component/headerLog.php");
         }else{
             include("common/component/header.php");
         }
-    ?>
-    <body class="body-index">        
+	?>
+	<body class="body-index">        
         <main>
 	    <div class="parallax-container">
                 <div class="parallax"><img src="images/bg-camera.jpg"></div>
@@ -38,9 +38,13 @@
 		    </p>
                 </div>
             </div>
-            <div class="parallax-container">
-                <div class="parallax"><img src="images/bg-photo.jpg"></div>
-            </div>            
+			<a href="common/fotocamere/fotocamera.php">
+				<div class="parallax-container">
+					<div class="parallax">
+						<img src="images/bg-photo.jpg">
+					</div>
+				</div>   
+			</a>         
             <div class="section white">
                 <div class="row container">
                     <h3 class="header"><a id="paragrafo" href="common/fotocamere/fotocamera.php">Fotocamere</a></h3>
@@ -49,10 +53,12 @@
                         Sono utilizzate per professione, per hobby, oppure per memorizzare ricordi facilmente accessibili da qualsiasi dispositivo elettronico.
                     </p>
                 </div>
-            </div>            
-            <div class="parallax-container">
-                <div class="parallax"><img src="images/bg-night.jpg"></div>
             </div>
+			<a href="common/fotocamere/notturna.php">
+				<div class="parallax-container">
+					<div class="parallax"><img src="images/bg-night.jpg"></div>
+				</div>
+			</a>
             <div class="section white">
                 <div class="row container">
                     <h3 class="header"><a id="paragrafo" href="common/fotocamere/notturna.php">Visione notturna</a></h3>
@@ -62,9 +68,11 @@
                     </p>
                 </div>
             </div>
-            <div class="parallax-container">
-                <div class="parallax"><img src="images/bg-highspeed.jpg"></div>
-            </div>
+			<a href="common/fotocamere/highspeed.php">
+				<div class="parallax-container">
+					<div class="parallax"><img src="images/bg-highspeed.jpg"></div>
+				</div>
+			</a>
             <div class="section white">
                 <div class="row container">
                     <h3 class="header"><a id="paragrafo" href="common/fotocamere/highspeed.php">Alta velocità</a></h3>
@@ -76,9 +84,11 @@
                     </p>
                 </div>
             </div>
-            <div class="parallax-container">
-                <div class="parallax"><img src="images/bg-thermal.jpg"></div>
-            </div>
+			<a href="common/fotocamere/termica.php">
+				<div class="parallax-container">
+					<div class="parallax"><img src="images/bg-thermal.jpg"></div>
+				</div>
+			</a>
             <div class="section white">
                 <div class="row container">
                     <h3 class="header"><a id="paragrafo" href="common/fotocamere/termica.php">Termocamere</a></h3>
@@ -89,9 +99,11 @@
                     </p>
                 </div>
             </div>
-            <div class="parallax-container">
-                <div class="parallax"><img src="images/bg-air.jpg"></div>
-            </div>
+			<a href="common/fotocamere/aria.php">
+				<div class="parallax-container">
+					<div class="parallax"><img src="images/bg-air.jpg"></div>
+				</div>
+			</a>
             <div class="section white">
                 <div class="row container">
                     <h3 class="header"><a id="paragrafo" href="common/fotocamere/aria.php">Strioscopia</a></h3>
@@ -103,9 +115,11 @@
                     </p>
                 </div>
             </div>
-            <div class="parallax-container">
-                <div class="parallax"><img src="images/bg-xray.jpg"></div>
-            </div>
+			<a href="common/fotocamere/xray.php">
+				<div class="parallax-container">
+					<div class="parallax"><img src="images/bg-xray.jpg"></div>
+				</div>
+			</a>
             <div class="section white">
                 <div class="row container">
                     <h3 class="header"><a id="paragrafo" href="common/fotocamere/xray.php">Raggi X</a></h3>
@@ -116,9 +130,11 @@
                     </p>
                 </div>
             </div>
-            <div class="parallax-container">
-                <div class="parallax"><img src="images/bg-plenottica.jpg"></div>
-            </div>
+			<a href="common/fotocamere/plenottica.php">
+				<div class="parallax-container">
+					<div class="parallax"><img src="images/bg-plenottica.jpg"></div>
+				</div>
+			</a>
             <div class="section white">
                 <div class="row container">
                     <h3 class="header"><a id="paragrafo" href="common/fotocamere/plenottica.php">Plenottica</a></h3>
